@@ -1,0 +1,31 @@
+
+https://www.koreanbapsang.com
+https://omnivorescookbook.com
+https://www.seriouseats.com
+https://www.eatingwell.com
+https://www.justonecookbook.com
+
+https://schema.org/Recipe
+
+GORDONRAMSAY
+https://www.gordonramsay.com/gr/recipes/#
+
+Key Schema.org Fields for Recipe
+
+The primary fields you should include for each recipe are:
+
+    @type: Defines the schema type. For recipes, it's always "Recipe".
+    * name: The name of the recipe.
+    * recipeIngredient: The list of ingredients, typically an array of strings.
+    * recipeInstructions: The cooking instructions, which can either be a string or structured steps.
+    * cookTime: Time it takes to cook the dish, in ISO 8601 duration format (e.g., "PT30M" for 30 minutes).
+    * prepTime: Time it takes to prepare the ingredients (e.g., "PT15M" for 15 minutes).
+    * totalTime: Total time (prep + cooking time).
+    * recipeYield: The amount the recipe yields (e.g., "4 servings").
+    * nutrition: Contains information like calories, fat, protein, carbs, etc.
+    * image: A URL of the recipe’s image.
+    * author: The name of the recipe author (person or organization).
+    * keywords: Keywords related to the recipe, such as ingredients, dish types, or cuisine.
+    * recipeCategory: Category for the recipe, such as "Main Course", "Dessert", etc.
+    * recipeCuisine: Type of cuisine (e.g., "Korean", "Italian").
+    * aggregateRating: Optional; allows for storing rating information (e.g., user reviews).

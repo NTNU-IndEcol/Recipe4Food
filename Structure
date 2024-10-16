@@ -1,0 +1,31 @@
+Recipe4Food/
+│
+├── public/                     # Static assets (images, CSS, etc.)
+│   ├── images/                 # Images for the website and recipes
+│   └── css/                    # CSS files for styling the website
+│
+├── src/                        # Source code for the website
+│   ├── components/             # Reusable components (e.g., header, footer, recipe cards)
+│   ├── pages/                  # Page-specific code (e.g., Home, Recipe Page, About)
+│   │   ├── Home.js             # Home page
+│   │   ├── RecipeList.js       # List of recipes by category
+│   │   └── RecipeDetail.js     # Individual recipe detail view
+│   │
+│   ├── data/                   # JSON data of recipes and categories
+│   │   ├── recipes.json        # Recipe data in schema.org format
+│   │   └── categories.json     # Recipe categories (e.g., cuisines, types)
+│   │
+│   ├── utils/                  # Utility scripts
+│   │   ├── schemaUtils.js      # Functions to handle schema.org/Recipe integration
+│   │   └── filterUtils.js      # Functions to handle ingredient or dietary filtering
+│   │
+│   ├── services/               # API integration (optional, for future backend)
+│   │   └── recipeAPI.js        # API calls for fetching/storing recipe data
+│   │
+│   └── App.js                  # Main app component
+│
+├── tests/                      # Test cases (unit and integration tests)
+│   └── recipeTests.js          # Tests for recipe functionality
+│
+├── README.md                   # Project documentation
+└── package.json                # Project dependencies and metadata
