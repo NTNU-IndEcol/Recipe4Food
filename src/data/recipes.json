@@ -1,0 +1,79 @@
+[
+    {
+      "@context": "https://schema.org/",
+      "@type": "Recipe",
+      "id": 1,
+      "name": "Spaghetti Bolognese",
+      "image": "/images/spaghetti-bolognese.jpg",
+      "description": "A classic Italian pasta dish with rich, meaty sauce.",
+      "recipeCategory": "Dinner",
+      "recipeCuisine": "Italian",
+      "recipeIngredient": [
+        "200g spaghetti",
+        "100g ground beef",
+        "1 onion, chopped",
+        "2 garlic cloves, minced",
+        "400g canned tomatoes"
+      ],
+      "recipeInstructions": [
+        { "@type": "HowToStep", "text": "Cook spaghetti according to package instructions." },
+        { "@type": "HowToStep", "text": "In a pan, sauté onion and garlic until soft." },
+        { "@type": "HowToStep", "text": "Add ground beef and cook until browned." },
+        { "@type": "HowToStep", "text": "Stir in tomatoes and simmer for 20 minutes." },
+        { "@type": "HowToStep", "text": "Serve sauce over cooked spaghetti." }
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Recipe",
+      "id": 2,
+      "name": "Chicken Curry",
+      "image": "/images/chicken-curry.jpg",
+      "description": "A flavorful and spicy chicken curry.",
+      "recipeCategory": "Dinner",
+      "recipeCuisine": "Indian",
+      "recipeIngredient": [
+        "500g chicken breast",
+        "1 onion, chopped",
+        "3 garlic cloves, minced",
+        "200ml coconut milk",
+        "2 tbsp curry powder"
+      ],
+      "recipeInstructions": [
+        { "@type": "HowToStep", "text": "In a pan, sauté onion and garlic until soft." },
+        { "@type": "HowToStep", "text": "Add chicken and cook until browned." },
+        { "@type": "HowToStep", "text": "Stir in curry powder and coconut milk. Simmer for 15 minutes." }
+      ]
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Recipe",
+        "id": 3,
+        "name": "Korean Bulgogi",
+        "image": "/images/chicken-curry.jpg",
+        "description": "A flavorful and spicy chicken curry.",
+        "recipeCategory": "Main Course",
+        "recipeCuisine": "Korean",
+        "recipeIngredient": [
+            "500g beef, thinly sliced",
+            "2 tbsp soy sauce",
+            "1 tbsp sesame oil",
+            "1 tsp sugar",
+            "1 garlic clove, minced"
+          ],
+        "recipeInstructions": [
+            "Mix the soy sauce, sesame oil, and sugar in a bowl.",
+            "Marinate the beef in the sauce for 20 minutes.",
+            "Heat a pan and cook the beef until browned."
+          ], 
+        "nutrition": {
+            "calories": "200 kcal",
+            "carbohydrateContent": "15g",
+            "proteinContent": "25g",
+            "fatContent": "10g"
+          },
+        "keywords": ["Bulgogi", "Korean", "Beef"]  
+      }
+  ]
+
+  
