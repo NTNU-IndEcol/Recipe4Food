@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+from datetime import datetime
 
 def get_recipe_links(category_url):
     recipe_links = []
@@ -58,27 +59,27 @@ def extract_recipe_details(url):
         instructions.append(instruction.get_text(strip=True))
 
     # Extract other relevant details
-    details = {}
     prep_time = soup.find('div', class_='wprm-recipe-prep-time-container')
     cook_time = soup.find('div', class_='wprm-recipe-cook-time-container')
     servings = soup.find('div', class_='wprm-recipe-servings-container')
 
-    if prep_time:
-        details['prep_time'] = prep_time.get_text(strip=True)
-    if cook_time:
-        details['cook_time'] = cook_time.get_text(strip=True)
-    if servings:
-        details['servings'] = servings.get_text(strip=True)
-
-    # Structure the extracted data
-    recipe_data = {
-        'title': title,
-        'ingredients': ingredients,
-        'instructions': instructions,
-        'details': details
+    # Schema.org JSON-LD Recipe structure
+    schema_recipe = {
+        "@context": "https://schema.org",
+        "@type": "Recipe",
+        "name": title,
+        "author": "Korean Bapsang",  # Assuming a fixed author
+        "datePublished": datetime.now().strftime('%Y-%m-%d'),  # Current date as default
+        "recipeIngredient": ingredients,
+        "recipeInstructions": " ".join(instructions),  # Combine instructions into a string
+        "recipeYield": servings.get_text(strip=True) if servings else None,
+        "prepTime": f"PT{prep_time.get_text(strip=True)}" if prep_time else None,
+        "cookTime": f"PT{cook_time.get_text(strip=True)}" if cook_time else None,
+        "image": soup.find('img')['src'] if soup.find('img') else None,  # First image as recipe image
+        "description": soup.find('meta', attrs={"name": "description"})['content'] if soup.find('meta', attrs={"name": "description"}) else title
     }
 
-    return recipe_data
+    return schema_recipe
 
 def save_to_json(data, file_name):
     with open(file_name, 'w', encoding='utf-8') as f:
@@ -100,4 +101,4 @@ if __name__ == "__main__":
             all_recipes.append(recipe_data)
     
     # Save all the recipes in a single JSON file
-    save_to_json(all_recipes, 'all_appetizer_snack_recipes.json')
+    save_to_json(all_recipes, 'schema_org_recipes.json')
