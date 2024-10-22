@@ -1,0 +1,20 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "A Korean Mom’s Cooking",
+    "image": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20830%20180'%3E%3C/svg%3E",
+    "description": "Learn how to cook Korean dishes the way we Koreans traditionally eat at home. You will find all kinds of Korean recipes here.",
+    "recipeCategory": "Main Course",
+    "recipeCuisine": "Korean",
+    "recipeIngredient": [],
+    "recipeInstructions": [],
+    "nutrition": {
+        "calories": "200 kcal",
+        "carbohydrateContent": "15g",
+        "proteinContent": "25g",
+        "fatContent": "10g"
+    },
+    "keywords": [
+        "A Korean Mom’s Cooking"
+    ]
+}
