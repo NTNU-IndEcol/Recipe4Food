@@ -1,26 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import recipes from '../data/recipes.json';
 
-function RecipeList({ categories }) {
+function RecipeList({ recipes }) {
   return (
     <div>
-      {categories.map((category) => (
-        <div key={category.id}>
-          <h3>{category.name}</h3>
-          <ul>
-            {recipes
-              .filter((recipe) => recipe.category === category.name)
-              .map((recipe) => (
-                <li key={recipe.id}>
-                  <Link to={`/recipe/${recipe.id}`}>{recipe.name}</Link>
-                </li>
-              ))}
-          </ul>
-        </div>
-      ))}
+      <h1>Recipe List</h1>
+      <ul>
+        {recipes.map((recipe) => (
+          <li key={recipe.id}>
+            <Link to={`/recipe/${recipe.id}`}>
+              <h2>{recipe.name}</h2>
+              <img src={recipe.image} alt={recipe.name} width="100" />
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
+
 
 export default RecipeList;

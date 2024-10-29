@@ -1,10 +1,13 @@
 import React from 'react';
-import recipes from '../data/recipes.json';
 import { useParams } from 'react-router-dom';
+import '../css/styles.css'; // Adjust the path if necessary
 
-function RecipeDetail() {
+
+function RecipeDetails({ recipes }) {
   const { id } = useParams();
-  const recipe = recipes.find((recipe) => recipe.id === parseInt(id));
+  const recipe = recipes.find((r) => r.id === parseInt(id));
+
+  if (!recipe) return <p>Recipe not found</p>;
 
   return (
     <div>
@@ -19,12 +22,12 @@ function RecipeDetail() {
       </ul>
       <h2>Instructions</h2>
       <ol>
-        {recipe.recipeInstructions.map((instruction, index) => (
-          <li key={index}>{instruction.text}</li>
+        {recipe.recipeInstructions.map((step, index) => (
+          <li key={index}>{step.text || step}</li>
         ))}
       </ol>
     </div>
   );
 }
 
-export default RecipeDetail;
+export default RecipeDetails;

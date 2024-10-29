@@ -1,6 +1,0 @@
-{
-    "cuisines": ["Korean", "Chinese", "Italian", "American"],
-    "mealTypes": ["Main Course", "Side Dish", "Dessert", "Appetizer"],
-    "dietaryPreferences": ["Vegetarian", "Vegan", "Gluten-Free", "Low-Carb"]
-  }
-  
