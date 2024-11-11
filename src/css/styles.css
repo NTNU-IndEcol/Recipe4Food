@@ -1,92 +1,54 @@
-/* Base Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-  }
-  
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
-  }
-  
-  header .logo {
-    display: inline-block;
-    font-size: 1.8rem;
-    margin: 0;
-  }
-  
-  header nav ul {
-    list-style: none;
-    display: inline-block;
-    margin: 0;
-  }
-  
-  header nav ul li {
-    display: inline;
-    margin-left: 1rem;
-  }
-  
-  header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .recipe-container {
-    margin: 2rem 0;
-  }
-  
-  .recipe-title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .recipe-details {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .recipe-image img {
-    max-width: 20%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .recipe-content {
-    flex-grow: 1;
-    margin-left: 2rem;
-  }
-  
-  .recipe-meta {
-    margin-top: 1rem;
-    font-style: italic;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .recipe-details {
-      flex-direction: column;
-    }
-  
-    .recipe-content {
-      margin-left: 0;
-    }
-  
-    header nav ul {
-      display: block;
-    }
-  
-    header nav ul li {
-      display: block;
-      margin: 0.5rem 0;
-    }
-  }
-  
+/* styles.css */
+
+/* Ensure header content is centered */
+header {
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  padding: 20px 0; /* Adds padding around the header */
+}
+
+/* Container inside the header */
+header .container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Centers content horizontally */
+  width: 50%;
+  max-width: 20px; /* Limit the width */
+}
+
+/* Styling for the logo */
+header .logo img {
+  width: 150px;  /* Adjust this value to control the size of the logo */
+  height: auto;  /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Adds space between logo and nav */
+}
+
+/* Ensure navigation items are centered below the logo */
+nav ul {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  list-style-type: none;
+  justify-content: center; /* Centers nav items horizontally */
+}
+
+/* Setting the image size of recipe */
+
+.recipe-image img {
+  width: 100%; /* Makes the image responsive */
+  max-width: 400px; /* Limits the width of the image */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+/* Setting the recipe in the center */
+
+.recipe-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers all child elements horizontally */
+  text-align: center; /* Centers text inside each section */
+  max-width: 600px; /* Optional: limits the width for a cleaner look */
+  margin: 0 auto; /* Centers the container in the middle of the page */
+  padding: 20px; /* Adds some spacing around the content */
+}

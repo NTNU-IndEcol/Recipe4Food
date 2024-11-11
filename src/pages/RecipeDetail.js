@@ -1,33 +1,39 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import '../css/styles.css'; // Adjust the path if necessary
 
-
-function RecipeDetails({ recipes }) {
-  const { id } = useParams();
-  const recipe = recipes.find((r) => r.id === parseInt(id));
-
-  if (!recipe) return <p>Recipe not found</p>;
+function RecipeDetail({ recipe }) {
+  if (!recipe) return <div>Loading...</div>;
 
   return (
-    <div>
-      <h1>{recipe.name}</h1>
-      <img src={recipe.image} alt={recipe.name} />
-      <p>{recipe.description}</p>
-      <h2>Ingredients</h2>
-      <ul>
-        {recipe.recipeIngredient.map((ingredient, index) => (
-          <li key={index}>{ingredient}</li>
-        ))}
-      </ul>
-      <h2>Instructions</h2>
-      <ol>
-        {recipe.recipeInstructions.map((step, index) => (
-          <li key={index}>{step.text || step}</li>
-        ))}
-      </ol>
+    <div className="recipe-detail">
+      <h2>{recipe.name}</h2>
+      <div className="recipe-image">
+        <img src={recipe.image} alt={recipe.name} />
+      </div>
+      <section className="ingredients">
+        <h3>Ingredients</h3>
+        <ul>
+          {recipe.recipeIngredient.map((ingredient, index) => (
+            <li key={index}>{ingredient}</li>
+          ))}
+        </ul>
+      </section>
+      <section className="instructions">
+        <h3>Instructions</h3>
+        <ol>
+          {recipe.recipeInstructions.map((instruction, index) => (
+            <li key={index}>
+              {typeof instruction === 'string' ? instruction : instruction.text}
+            </li>
+          ))}
+        </ol>
+      </section>
+      <div className="recipe-meta">
+        <p>Prep Time: N/A | Cook Time: N/A</p>
+        <p>Servings: N/A</p>
+        <p>Calories: {recipe.nutrition ? recipe.nutrition.calories : 'N/A'}</p>
+      </div>
     </div>
   );
 }
 
-export default RecipeDetails;
+export default RecipeDetail;
