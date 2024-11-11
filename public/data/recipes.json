@@ -4,21 +4,21 @@
         "@type": "Recipe",
         "id": 1,
         "name": "Dubu Salad (Korean Tofu Salad)",
-        "image": "images/recipe_1_dubu_salad_korean_tofu_salad_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1packagesoft or silken tofu",
-            "▢2ouncesspring salad mix",
-            "▢2scallions (1 if large), finely chopped, about 1/4 cup",
-            "▢1/2teaspoonminced garlic",
-            "▢2tablespoonssoy sauce",
-            "▢1tablespoonvinegar or lemon juice",
-            "▢1tablespoonrice wine (mirin, mirim (미림), or matsul (맛술))",
-            "▢1teaspoonsugaror 2 teaspoons Korean plum syrup -maesilcheong, 매실청",
-            "▢1/2teaspoongochugaru (Korean red chili pepper flakes)Adjust to taste",
-            "▢1teaspoonsesame oil",
-            "▢2teaspoonssesame seeds"
+            "1 package soft or silken tofu",
+            "2 ounces spring salad mix",
+            "2  scallions (1 if large), finely chopped, about 1/4 cup",
+            "1/2 teaspoon minced garlic",
+            "2 tablespoons soy sauce",
+            "1 tablespoon vinegar or lemon juice",
+            "1 tablespoon rice wine (mirin, mirim (미림), or matsul (맛술))",
+            "1 teaspoon sugar",
+            "1/2 teaspoon gochugaru (Korean red chili pepper flakes)",
+            "1 teaspoon sesame oil",
+            "2 teaspoons sesame seeds"
         ],
         "recipeInstructions": [
             {
@@ -46,9 +46,10 @@
                 "text": "Spread some spring mix on a plate. Arrange the tofu slices on top of the spring mix. Drizzle the sauce over the tofu when ready to serve."
             }
         ],
-        "recipeYield": "Servings:2",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:10minutesminutes",
+        "recipeYield": "2",
+        "prepTime": "10 Minutes",
+        "cookTime": "10 Minutes",
+        "image": "../images/recipe_1_dubu_salad_korean_tofu_salad_.jpg",
         "description": "Simple Korean-style tofu salad - Korean yangnymjang (soy dipping sauce) deliciously complements the nutty tofu and slightly peppery and bitter spring mix."
     },
     {
@@ -56,38 +57,38 @@
         "@type": "Recipe",
         "id": 2,
         "name": "Korean Fried Chicken",
-        "image": "images/recipe_2_korean_fried_chicken.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢2poundschicken wings (about 16 drumettes and wingettes)",
-            "▢1.5teaspoonssalt (use 1 ts if using table salt)",
-            "▢pinchblack pepper (or to taste)",
-            "▢1teaspoongrated ginger",
-            "▢4-5cupsoil for fryingabout 2-inch deep (use deep, bottom heavy, medium size pot or pan)",
-            "▢1/2cuppotato starch (or cornstarch)",
-            "▢1/2cupfrying mix (aka tempura mix)or all-purpose flour with 1/2 teaspoon baking powder, 1/4 teaspoon salt, and optional 1/2 teaspoon garlic powder or onion powder.",
-            "▢1/4cuppotato starch (or cornstarch)",
-            "▢3/4cupwater",
-            "▢1tablespoonsoy sauce",
-            "▢2tablespoonsrice wine (or mirin) or other cooking wine",
-            "▢1tablespoonor 1.5 tablespoons gochujang",
-            "▢1tablespoonor 2 tablespoons hot sauce (sriracha, tabasco, Franks Original, etc.)You can use 2 Tbs ketchup instead along with a teaspoon vinegar, if you don't want extra heat.",
-            "▢2tablespoonssugar",
-            "▢2tablespoonshoney (or 2.5 tablespoons corn syrup, rice syrup, or oligo syrup)",
-            "▢1tablespoonminced garlic",
-            "▢1/2teaspoonhoney dijon mustard - optional",
-            "▢4tablespoonswater",
-            "▢2tablespoonssoy sauce",
-            "▢2tablespoonsrice wine (or mirin or other cooking wine)",
-            "▢2tablespoonssugar",
-            "▢2tablespoonshoney (or 2.5 tablespoons corn syrup, rice syrup, or oligo syrup)",
-            "▢1tablespoonminced garlic",
-            "▢1teaspoonvinegar (white, rice, apple cider, etc.)",
-            "▢1teaspoonor 2 teaspoons oyster sauce - optional",
-            "▢4tablespoonswater",
-            "▢1/2teaspoonsesame seeds",
-            "▢1tablespoonchopped scallion"
+            "2 pounds chicken wings (about 16 drumettes and wingettes)",
+            "1.5 teaspoons salt (use 1 ts if using table salt)",
+            "pinch black pepper (or to taste)",
+            "1 teaspoon grated ginger",
+            "4-5 cups oil for frying",
+            "1/2 cup potato starch (or cornstarch)",
+            "1/2 cup frying mix (aka tempura mix)",
+            "1/4 cup potato starch (or cornstarch)",
+            "3/4 cup water",
+            "1 tablespoon soy sauce",
+            "2 tablespoons rice wine (or mirin) or other cooking wine",
+            "1 tablespoon or 1.5 tablespoons gochujang",
+            "1 tablespoon or 2 tablespoons hot sauce (sriracha, tabasco, Franks Original, etc.)",
+            "2 tablespoons sugar",
+            "2 tablespoons honey (or 2.5 tablespoons corn syrup, rice syrup, or oligo syrup)",
+            "1 tablespoon minced garlic",
+            "1/2 teaspoon honey dijon mustard - optional",
+            "4 tablespoons water",
+            "2 tablespoons soy sauce",
+            "2 tablespoons rice wine (or mirin or other cooking wine)",
+            "2 tablespoons sugar",
+            "2 tablespoons honey (or 2.5 tablespoons corn syrup, rice syrup, or oligo syrup)",
+            "1 tablespoon minced garlic",
+            "1 teaspoon vinegar (white, rice, apple cider, etc.)",
+            "1 teaspoon or 2 teaspoons oyster sauce - optional",
+            "4 tablespoons water",
+            "1/2 teaspoon sesame seeds",
+            "1 tablespoon chopped scallion"
         ],
         "recipeInstructions": [
             {
@@ -119,9 +120,10 @@
                 "text": "You can either toss the fried chicken pieces in the sauce or hand-brush them. Sprinkle with the optional sesame seeds or chopped scallion to serve."
             }
         ],
-        "recipeYield": "Servings:4people",
-        "prepTime": "PTPrep Time:25minutesminutes",
-        "cookTime": "PTCook Time:20minutesminutes",
+        "recipeYield": "4",
+        "prepTime": "25 Minutes",
+        "cookTime": "20 Minutes",
+        "image": "../images/recipe_2_korean_fried_chicken.jpg",
         "description": "Korean fried chicken with a thin, crackly crust that's glazed with a delicious soy garlic or red spicy sauce! "
     },
     {
@@ -129,20 +131,20 @@
         "@type": "Recipe",
         "id": 3,
         "name": "Gilgeori Toast (Korean Street Toast)",
-        "image": "images/recipe_3_gilgeori_toast_korean_street_toast_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢2slicesbread (white, wheat, multi-grain, or milk bread)",
-            "▢3ouncesgreen cabbage, yangbaechu (양배추) up to 4 ounces1 cup, packed",
-            "▢½small carrot (about 0.5 ounces)",
-            "▢¼small onion (about 0.5 ounces)",
-            "▢2stalksgarlic chives, buchu (or 1 small scallion)",
-            "▢1large eggsee note",
-            "▢salt and pepper to taste",
-            "▢2tablespoonsbutter (or margarine or olive oil), or to taste, divided",
-            "▢sugar to tasteHalmeoni Toast uses a heaping tablespoon",
-            "▢ketchup to taste"
+            "2 slices bread (white, wheat, multi-grain, or milk bread)",
+            "3 ounces green cabbage, yangbaechu (양배추) up to 4 ounces",
+            "½  small carrot (about 0.5 ounces)",
+            "¼  small onion (about 0.5 ounces)",
+            "2 stalks garlic chives, buchu (or 1 small scallion)",
+            "1  large egg",
+            "salt and pepper to taste",
+            "2 tablespoons butter (or margarine or olive oil), or to taste, divided",
+            "sugar to taste",
+            "ketchup to taste"
         ],
         "recipeInstructions": [
             {
@@ -166,9 +168,10 @@
                 "text": "Place the omelet on one piece of toast. Sprinkle it with sugar and top with a good squirt of ketchup to taste, and place the other slice of bread on top and serve."
             }
         ],
-        "recipeYield": "Servings:1",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:5minutesminutes",
+        "recipeYield": "1",
+        "prepTime": "10 Minutes",
+        "cookTime": "5 Minutes",
+        "image": "../images/recipe_3_gilgeori_toast_korean_street_toast_.jpg",
         "description": "This veggie-packed Korean street toast is easy and delicious! Experience the streets of Korea with a few basic ingredients.  "
     },
     {
@@ -176,20 +179,20 @@
         "@type": "Recipe",
         "id": 4,
         "name": "Hobak Jeon (Pan-fried Zucchini in Egg Batter)",
-        "image": "images/recipe_4_hobak_jeon_pan_fried_zucchini_in_egg_batter_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢2zucchinis (about 10 ounces each)",
-            "▢salt",
-            "▢a red pepper and small leaflets of green leafy vegetables such as minari, ssukgat, and parsleyOptional decorations",
-            "▢2large eggs, beaten",
-            "▢1/4cupflour",
-            "▢oil for pan frying",
-            "▢1tablespoonsoy sauce",
-            "▢1tablespoonwater",
-            "▢1teaspoonvinegar (or more to taste)",
-            "▢You can also add a bit of sugar and/or black pepper to taste"
+            "2  zucchinis (about 10 ounces each)",
+            "salt",
+            "a red pepper and small leaflets of green leafy vegetables such as minari, ssukgat, and parsley",
+            "2  large eggs, beaten",
+            "1/4 cup flour",
+            "oil for pan frying",
+            "1 tablespoon soy sauce",
+            "1 tablespoon water",
+            "1 teaspoon vinegar (or more to taste)",
+            "You can also add a bit of sugar and/or black pepper to taste"
         ],
         "recipeInstructions": [
             {
@@ -213,9 +216,10 @@
                 "text": "Repeat until all the pieces are pan fried. Add an additional tablespoon of oil each time. Serve warm with the dipping sauce."
             }
         ],
-        "recipeYield": "Servings:4",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:10minutesminutes",
+        "recipeYield": "4",
+        "prepTime": "10 Minutes",
+        "cookTime": "10 Minutes",
+        "image": "../images/recipe_4_hobak_jeon_pan_fried_zucchini_in_egg_batter_.jpg",
         "description": "These hobak jeon (Korean zucchini fritters) are pan-fried quickly in egg batter. They are delicious with summer's abundant zucchinis!   Zucchini"
     },
     {
@@ -223,20 +227,20 @@
         "@type": "Recipe",
         "id": 5,
         "name": "Minari Jeon (Water Dropwort Pancake)",
-        "image": "images/recipe_5_minari_jeon_water_dropwort_pancake_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1/2cupbuchimgaru, 부침가루 (Korean pancake mix) or all-purpose flour (see note)",
-            "▢4ouncesminari",
-            "▢1red chili pepper - optional",
-            "▢oil for pan frying",
-            "▢1tablespoonsoy sauce",
-            "▢1teaspoonvinegar",
-            "▢1tablespoonwater",
-            "▢1/2teaspoonsugar",
-            "▢pinchblack pepper",
-            "▢pinchgochugaru (Korean red chili pepper flakes) - optional"
+            "1/2 cup buchimgaru, 부침가루 (Korean pancake mix) or all-purpose flour (see note)",
+            "4 ounces minari",
+            "1  red chili pepper - optional",
+            "oil for pan frying",
+            "1 tablespoon soy sauce",
+            "1 teaspoon vinegar",
+            "1 tablespoon water",
+            "1/2 teaspoon sugar",
+            "pinch black pepper",
+            "pinch gochugaru (Korean red chili pepper flakes) - optional"
         ],
         "recipeInstructions": [
             {
@@ -260,9 +264,10 @@
                 "text": "Repeat the process with the remaining vegetable mix. Serve hot with a dipping sauce, if desired."
             }
         ],
-        "recipeYield": "Servings:2",
-        "prepTime": "PTPrep Time:10minutesminutes",
+        "recipeYield": "2",
+        "prepTime": "10 Minutes",
         "cookTime": null,
+        "image": "../images/recipe_5_minari_jeon_water_dropwort_pancake_.jpg",
         "description": "Minari jeon is a simple Korean savory pancake made with minari (aka water dropwort or Korean watercress). This recipe is a great way to enjoy the"
     },
     {
@@ -270,25 +275,25 @@
         "@type": "Recipe",
         "id": 6,
         "name": "Bossam (Boiled Pork Wraps)",
-        "image": "images/recipe_6_bossam_boiled_pork_wraps_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢tender inner parts of 1 napa cabbage, saltedor red or green leaf lettuce",
-            "▢(Dissolve 1/2 cup coarse salt in 4 cups of water, and soak the cabbage leaves until softened, 2 to 4 hours. Rinse and drain well.)",
-            "▢Radish salad, musaengchae - Seerecipe.",
-            "▢saewujeot (salted shrimp)use it as is or mix with a little bit of gochugaru, sesame oil and seeds, and chopped scallion",
-            "▢2whole fresh pork belly about 3-inch wide cutabout 2.5 pounds",
-            "▢1/2medium onion",
-            "▢2 - 3white parts of large scallions",
-            "▢7 - 8plump garlic cloves",
-            "▢1inchginger (thumb size), sliced",
-            "▢1teaspoonwhole black peppers",
-            "▢1.5tablespoonsdoenjang, fermented soybean paste",
-            "▢1teaspooninstant coffee, or a cup of brewed coffeeor a small bottle (or can) of beer - 12 ounces",
-            "▢1teaspoonsalt",
-            "▢2bay leaves",
-            "▢7 to 8cupswater (see note)if using brewed coffee or beer, reduce the amount of water by the equal amount"
+            "tender inner parts of 1 napa cabbage, salted",
+            "(Dissolve 1/2 cup coarse salt in 4 cups of water, and soak the cabbage leaves until softened, 2 to 4 hours. Rinse and drain well.)",
+            "Radish salad, musaengchae - Seerecipe.",
+            "saewujeot (salted shrimp)",
+            "2  whole fresh pork belly about 3-inch wide cut",
+            "1/2  medium onion",
+            "2 - 3  white parts of large scallions",
+            "7 - 8  plump garlic cloves",
+            "1 inch ginger (thumb size), sliced",
+            "1 teaspoon whole black peppers",
+            "1.5 tablespoons doenjang, fermented soybean paste",
+            "1 teaspoon instant coffee, or a cup of brewed coffee",
+            "1 teaspoon salt",
+            "2  bay leaves",
+            "7 to 8 cups water (see note)"
         ],
         "recipeInstructions": [
             {
@@ -304,9 +309,10 @@
                 "text": "Thinly slice the meat and serve with the salted cabbage (or lettuce), saewujeot, and musaengchae."
             }
         ],
-        "recipeYield": "Servings:6",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:1hourhour",
+        "recipeYield": "6",
+        "prepTime": "10 Minutes",
+        "cookTime": null,
+        "image": "../images/recipe_6_bossam_boiled_pork_wraps_.jpg",
         "description": "Bossam is boiled pork traditionally served with cabbage wraps. The meat is boiled in a flavorful brine until tender and served thinly sliced. "
     },
     {
@@ -314,29 +320,29 @@
         "@type": "Recipe",
         "id": 7,
         "name": "Baked Chicken Wings",
-        "image": "images/recipe_7_baked_chicken_wings.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢24wing piecesabout 3 pounds for each marinade",
-            "▢4tablespoonsgochujang Korean red chili pepper paste",
-            "▢4tablespoonsbarbecue sauceany type",
-            "▢2tablespoonssoy sauce",
-            "▢2tablespoonsrice wine or mirin (or white wine)",
-            "▢1tablespoonsesame oil",
-            "▢1tablespoonhoney",
-            "▢1tablespoonminced garlic",
-            "▢1teaspoonfinely grated ginger",
-            "▢1/4teaspoonpepper",
-            "▢1/2cupsoy sauce",
-            "▢3tablespoonsrice wine or mirin",
-            "▢1tablespoonlemon juice",
-            "▢2tablespoonsextra virgin olive oil",
-            "▢2tablespoonshoney",
-            "▢1tablespoonbrown sugar",
-            "▢1tablespoonminced garlic",
-            "▢2teaspoonsgrated ginger",
-            "▢1/4teaspoonpepper"
+            "24  wing pieces",
+            "4 tablespoons gochujang Korean red chili pepper paste",
+            "4 tablespoons barbecue sauce",
+            "2 tablespoons soy sauce",
+            "2 tablespoons rice wine or mirin (or white wine)",
+            "1 tablespoon sesame oil",
+            "1 tablespoon honey",
+            "1 tablespoon minced garlic",
+            "1 teaspoon finely grated ginger",
+            "1/4 teaspoon pepper",
+            "1/2 cup soy sauce",
+            "3 tablespoons rice wine or mirin",
+            "1 tablespoon lemon juice",
+            "2 tablespoons extra virgin olive oil",
+            "2 tablespoons honey",
+            "1 tablespoon brown sugar",
+            "1 tablespoon minced garlic",
+            "2 teaspoons grated ginger",
+            "1/4 teaspoon pepper"
         ],
         "recipeInstructions": [
             {
@@ -356,9 +362,10 @@
                 "text": "Turn them over halfway during baking and baste with the leftover marinade. Reduce the heat level if the wings are browning too quickly. (See notes.)"
             }
         ],
-        "recipeYield": "Servings:4",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:30minutesminutes",
+        "recipeYield": "4",
+        "prepTime": "10 Minutes",
+        "cookTime": "30 Minutes",
+        "image": "../images/recipe_7_baked_chicken_wings.jpg",
         "description": "These Korean-flavored baked chicken wings are finger-licking delicious! The recipe includes two different marinades -- savory and spicy."
     },
     {
@@ -366,14 +373,15 @@
         "@type": "Recipe",
         "id": 8,
         "name": "15 Game Day Korean Recipes",
-        "image": "images/recipe_8_15_game_day_korean_recipes.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [],
         "recipeInstructions": [],
         "recipeYield": null,
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_8_15_game_day_korean_recipes.jpg",
         "description": "If you like to try something different and exciting for your game day, here's a collection of 15 Korean party or snack dishes. Enjoy!! Are you looking for Here's a collection of 10 Korean party or snack dishes for your game day. Try some of these recipes for a nice change or a great addition to your standard Super Bowl fare."
     },
     {
@@ -381,27 +389,27 @@
         "@type": "Recipe",
         "id": 9,
         "name": "Gungjung Tteokbokki (Royal Court Rice Cake)",
-        "image": "images/recipe_9_gungjung_tteokbokki_royal_court_rice_cake_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1poundthin garaetteok/tteokbokki tteokabout 2-inch long pieces",
-            "▢4ounceslean beefsirloin, eye round, chuck tender or rib eye",
-            "▢3or 4 shiitake mushroomsfresh or soaked if dried",
-            "▢1/2medium zucchini (about 4 ounces)You can also use garlic chives and/or colorful bell peppers.",
-            "▢1medium carrotcut into thin, 2-inch strips",
-            "▢1/2medium sweet onionthinly sliced",
-            "▢1 to 2scallionscut into 2-inch lengths",
-            "▢salt",
-            "▢cooking oil for stir-frying",
-            "▢3tablespoonssoy sauce",
-            "▢1tablespoonrice wineor mirin",
-            "▢1tablespoonsugar",
-            "▢1tablespoonsesame oil",
-            "▢1teaspoonsesame seeds",
-            "▢2teaspoonsminced garlic",
-            "▢pinchpepper",
-            "▢ginkgo nuts or pine nuts"
+            "1 pound thin garaetteok/tteokbokki tteok",
+            "4 ounces lean beef",
+            "3  or 4 shiitake mushrooms",
+            "1/2  medium zucchini (about 4 ounces)",
+            "1  medium carrot",
+            "1/2  medium sweet onion",
+            "1 to 2  scallions",
+            "salt",
+            "cooking oil for stir-frying",
+            "3 tablespoons soy sauce",
+            "1 tablespoon rice wine",
+            "1 tablespoon sugar",
+            "1 tablespoon sesame oil",
+            "1 teaspoon sesame seeds",
+            "2 teaspoons minced garlic",
+            "pinch pepper",
+            "ginkgo nuts or pine nuts"
         ],
         "recipeInstructions": [
             {
@@ -425,9 +433,10 @@
                 "text": "Add the rice cakes to the bowl with the vegetables, along with the optional ginkgo or pine nuts, and the remaining sauce. Toss well to combine everything well. Adjust the seasoning with additional soy sauce or sugar as necessary. Serve warm."
             }
         ],
-        "recipeYield": "Servings:0",
-        "prepTime": "PTPrep Time:15minutesminutes",
-        "cookTime": "PTCook Time:10minutesminutes",
+        "recipeYield": "0",
+        "prepTime": "15 Minutes",
+        "cookTime": "10 Minutes",
+        "image": "../images/recipe_9_gungjung_tteokbokki_royal_court_rice_cake_.jpg",
         "description": "Gungjung tteokbokki, a royal court dish, is mildly flavored with a soy sauce based sauce. It's slightly sweet and deliciously savory!"
     },
     {
@@ -435,25 +444,25 @@
         "@type": "Recipe",
         "id": 10,
         "name": "Shrimp Dumplings (Saeu Mandu)",
-        "image": "images/recipe_10_shrimp_dumplings_saeu_mandu_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢32dumpling wrappers (store-bought orhomemade)See note 1",
-            "▢12ounces(340 grams) raw shrimpPeeled and deveined",
-            "▢10ounces(280 grams) green cabbage",
-            "▢4ounces(110 grams) fresh mushroom caps, stems removed(shiitake, button, crimini, etc.)",
-            "▢1/2small onion",
-            "▢1teaspoonminced garlic",
-            "▢1teaspoonfinely grated gingeror juiced",
-            "▢1teaspoonsoy sauce",
-            "▢2teaspoonssesame oil",
-            "▢salt to tasteabout 1/4 teaspoon",
-            "▢pinchpepper",
-            "▢1tablespoonsoy sauce",
-            "▢1teaspoonvinegar",
-            "▢1tablespoonwater",
-            "▢pinchof black pepperand/or gochugaru (red chili pepper flakes)"
+            "32  dumpling wrappers (store-bought orhomemade)",
+            "12 ounces (340 grams) raw shrimp",
+            "10 ounces (280 grams) green cabbage",
+            "4 ounces (110 grams) fresh mushroom caps, stems removed",
+            "1/2  small onion",
+            "1 teaspoon minced garlic",
+            "1 teaspoon finely grated ginger",
+            "1 teaspoon soy sauce",
+            "2 teaspoons sesame oil",
+            "salt to taste",
+            "pinch pepper",
+            "1 tablespoon soy sauce",
+            "1 teaspoon vinegar",
+            "1 tablespoon water",
+            "pinch of black pepper"
         ],
         "recipeInstructions": [
             {
@@ -477,9 +486,10 @@
                 "text": "Pan frying, heat the pan with 1 tablespoon of vegetable oil over medium high heat. Add the dumplings, making sure they aren't touching each other. Fry for 1 - 2 minutes, until the bottoms are golden brown. Add 1/4 cup of water to the pan, and cover immediately with a lid. Reduce the heat to medium low, and steam for 4 to 5 minutes. If the dumplings are frozen, cook a little longer."
             }
         ],
-        "recipeYield": "Servings:32dumplings",
-        "prepTime": "PTPrep Time:30minutesminutes",
-        "cookTime": "PTCook Time:10minutesminutes",
+        "recipeYield": "32",
+        "prepTime": "30 Minutes",
+        "cookTime": "10 Minutes",
+        "image": "../images/recipe_10_shrimp_dumplings_saeu_mandu_.jpg",
         "description": "Filled with shrimp and lots of healthy vegetables, these shrimp dumplings are easy to make, juicy and flavorful!"
     },
     {
@@ -487,30 +497,30 @@
         "@type": "Recipe",
         "id": 11,
         "name": "Dakgangjeong (Sweet Crispy Korean Fried Chicken)",
-        "image": "images/recipe_11_dakgangjeong_sweet_crispy_korean_fried_chicken_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1poundbonelessskinless chicken thigh and/or breast",
-            "▢1/2cupmilkoptional",
-            "▢1/4teaspoonsalt",
-            "▢pinchpepper",
-            "▢1/2teaspoonminced garlic",
-            "▢1/2teaspoonminced ginger",
-            "▢1tablespoonrice wineif not using milk",
-            "▢⅓cuppotato starchor corn starch",
-            "▢oil for deep frying",
-            "▢1tablespoonsoy sauce",
-            "▢3tablespoonsrice wineor mirin",
-            "▢2tablespoonsapple cider vinegaror rice wine vinegar",
-            "▢1tablespoongochujang, 고추장 (Korean red chili pepper paste)Omit for a mild version and add 1 more tablespoon soy sauce (Also see note)",
-            "▢3tablespoonshoneyor corn or rice syrup (use 4 tablespoons)",
-            "▢2teaspoonssesame oil",
-            "▢2tablespoonsbrown sugar",
-            "▢1teaspoonminced garlic",
-            "▢1teaspoongrated ginger",
-            "▢pinchpepper",
-            "▢1 to 2tablespoonscoarsely chopped peanuts or seeds"
+            "1 pound boneless",
+            "1/2 cup milk",
+            "1/4 teaspoon salt",
+            "pinch pepper",
+            "1/2 teaspoon minced garlic",
+            "1/2 teaspoon minced ginger",
+            "1 tablespoon rice wine",
+            "⅓ cup potato starch",
+            "oil for deep frying",
+            "1 tablespoon soy sauce",
+            "3 tablespoons rice wine",
+            "2 tablespoons apple cider vinegar",
+            "1 tablespoon gochujang, 고추장 (Korean red chili pepper paste)",
+            "3 tablespoons honey",
+            "2 teaspoons sesame oil",
+            "2 tablespoons brown sugar",
+            "1 teaspoon minced garlic",
+            "1 teaspoon grated ginger",
+            "pinch pepper",
+            "1 to 2 tablespoons coarsely chopped peanuts or seeds"
         ],
         "recipeInstructions": [
             {
@@ -546,9 +556,10 @@
                 "text": "Heat the sauce over medium low heat. Add the chicken and stir well until the chicken pieces are evenly coated."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_11_dakgangjeong_sweet_crispy_korean_fried_chicken_.jpg",
         "description": "Dakgangjeong is a crispy Korean fried chicken glazed in a sticky, sweet, tangy and spicy sauce. So addictive! Easy to make at home!"
     },
     {
@@ -556,26 +567,26 @@
         "@type": "Recipe",
         "id": 12,
         "name": "Japchae (Stir-Fried Starch Noodles with Beef and Vegetables)",
-        "image": "images/recipe_12_japchae_stir_fried_starch_noodles_with_beef_and_vegetables_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢7ouncesKorean potato starch noodles (dangmyeon, 당면)",
-            "▢1carrot (about 3 ounces)",
-            "▢1/2medium onion, preferably sweet variety, (4 to 5 ounces)",
-            "▢2scallions",
-            "▢4ounceslean tender beef (sirloin, chuck tender, rib eye, etc.)or pork loin",
-            "▢3 to 4ouncesfresh shiitake mushrooms (or 4 to 5 dried shiitake, soaked until plump)Or oyster mushrooms, wood ear mushrooms or button mushrooms. See note 1.",
-            "▢6ouncesfresh spinach (preferably a bunch of spinach)",
-            "▢oil for stir frying",
-            "▢salt",
-            "▢egg garnish (jidan) - optional",
-            "▢3.5tablespoonssoy sauce",
-            "▢3tablespoonssugar (or brown sugar)You can use a little less if you want.",
-            "▢2tablespoonssesame oil",
-            "▢2teaspoonsminced garlic",
-            "▢1tablespoonroasted sesame seeds",
-            "▢black pepper to taste"
+            "7 ounces Korean potato starch noodles (dangmyeon, 당면)",
+            "1  carrot (about 3 ounces)",
+            "1/2  medium onion, preferably sweet variety, (4 to 5 ounces)",
+            "2  scallions",
+            "4 ounces lean tender beef (sirloin, chuck tender, rib eye, etc.)",
+            "3 to 4 ounces fresh shiitake mushrooms (or 4 to 5 dried shiitake, soaked until plump)",
+            "6 ounces fresh spinach (preferably a bunch of spinach)",
+            "oil for stir frying",
+            "salt",
+            "egg garnish (jidan) - optional",
+            "3.5 tablespoons soy sauce",
+            "3 tablespoons sugar (or brown sugar)",
+            "2 tablespoons sesame oil",
+            "2 teaspoons minced garlic",
+            "1 tablespoon roasted sesame seeds",
+            "black pepper to taste"
         ],
         "recipeInstructions": [
             {
@@ -615,9 +626,10 @@
                 "text": "Separate the egg white and yolk. Lightly beat the white by gently cutting it with a spoon. Stir the yolk with a spoon until smooth. Heat a lightly oiled nonstick skillet over medium low heat. Pour each egg part into a thin layer, by tilting the skillet and/or spreading with a spoon. Cook each side briefly. (Do not brown the egg.) Roll it and thinly slice."
             }
         ],
-        "recipeYield": "Servings:4",
-        "prepTime": "PTPrep Time:15minutesminutes",
-        "cookTime": "PTCook Time:20minutesminutes",
+        "recipeYield": "4",
+        "prepTime": "15 Minutes",
+        "cookTime": "20 Minutes",
+        "image": "../images/recipe_12_japchae_stir_fried_starch_noodles_with_beef_and_vegetables_.jpg",
         "description": "Japchae is a classic Korean dish everyone loves! Find out how to make authentic, delicious japchae with this time tested recipe!"
     },
     {
@@ -625,19 +637,19 @@
         "@type": "Recipe",
         "id": 13,
         "name": "Beoseot Gangjeong (Sweet Crispy Mushrooms)",
-        "image": "images/recipe_13_beoseot_gangjeong_sweet_crispy_mushrooms_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢2ouncesdried shiitake mushroomsSee note",
-            "▢1/4bell pepperred, orange or yellow or a combination",
-            "▢1/4cuppotato starch or cornstarch",
-            "▢oil for deep frying",
-            "▢1tablespoonsoy sauce",
-            "▢1tablespoongochujang (Korean red chili pepper paste)",
-            "▢1tablespoonvinegar (rice wine vinegar or any other clear vinegar)",
-            "▢2tablespoonsrice syrup (jocheong, 조청), corn syrup, or oligodang (올리고당)or 1 to 1.5  tablespoons honey",
-            "▢2tablespoonsrice wine (or mirin)"
+            "2 ounces dried shiitake mushrooms",
+            "1/4  bell pepper",
+            "1/4 cup potato starch or cornstarch",
+            "oil for deep frying",
+            "1 tablespoon soy sauce",
+            "1 tablespoon gochujang (Korean red chili pepper paste)",
+            "1 tablespoon vinegar (rice wine vinegar or any other clear vinegar)",
+            "2 tablespoons rice syrup (jocheong, 조청), corn syrup, or oligodang (올리고당)",
+            "2 tablespoons rice wine (or mirin)"
         ],
         "recipeInstructions": [
             {
@@ -673,9 +685,10 @@
                 "text": "Heat the sauce over medium heat. Add the mushrooms and peppers, and stir well until the mushroom pieces are evenly coated."
             }
         ],
-        "recipeYield": "Servings:4",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:10minutesminutes",
+        "recipeYield": "4",
+        "prepTime": "10 Minutes",
+        "cookTime": "10 Minutes",
+        "image": "../images/recipe_13_beoseot_gangjeong_sweet_crispy_mushrooms_.jpg",
         "description": "Deep-fried crispy mushrooms glazed in a sweet and sour sauce with a spicy kick. The lightly coated mushrooms are deep-fried in shallow oil."
     },
     {
@@ -683,25 +696,25 @@
         "@type": "Recipe",
         "id": 14,
         "name": "Kimchijeon (Kimchi Pancake)",
-        "image": "images/recipe_14_kimchijeon_kimchi_pancake_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1cupthinly sliced fully-fermented kimchi",
-            "▢1 to 2scallionsTwo if thin and small",
-            "▢1/4medium onion",
-            "▢3ouncesminced pork, canned tuna (without the liquid), or squid cut into small strips - optional",
-            "▢cooking oil with high smoke point for pan frying",
-            "▢1 1/4cupsall-purpose flour or buchimgaru (Korean pancake premix)or Swap 1/4 cup of all-purpose flour with sweet rice flour or corn/potato starch",
-            "▢2 to 3tablespoonsjuice/liquid from kimchiSee note on water below",
-            "▢1 or 2teaspoonsgochujang (Korean chili pepper paste) or gochugaru - optional",
-            "▢1lightly beaten egg - optional",
-            "▢1cupicy cold waterUse more water if juice/liquid from kimchi is unavailable and not using an egg. Flour to liquid should be about 1:1 ratio in total.",
-            "▢1tablespoonsoy sauce",
-            "▢1teaspoonvinegar",
-            "▢1tablespoonwater",
-            "▢1/2teaspoonsugar",
-            "▢pinchof black pepper"
+            "1 cup thinly sliced fully-fermented kimchi",
+            "1 to 2  scallions",
+            "1/4  medium onion",
+            "3 ounces minced pork, canned tuna (without the liquid), or squid cut into small strips - optional",
+            "cooking oil with high smoke point for pan frying",
+            "1 1/4 cups all-purpose flour or buchimgaru (Korean pancake premix)",
+            "2 to 3 tablespoons juice/liquid from kimchi",
+            "1 or 2 teaspoons gochujang (Korean chili pepper paste) or gochugaru - optional",
+            "1  lightly beaten egg - optional",
+            "1 cup icy cold water",
+            "1 tablespoon soy sauce",
+            "1 teaspoon vinegar",
+            "1 tablespoon water",
+            "1/2 teaspoon sugar",
+            "pinch of black pepper"
         ],
         "recipeInstructions": [
             {
@@ -729,9 +742,10 @@
                 "text": "Repeat the process until there is no remaining batter. Serve hot with a dipping sauce, if desired."
             }
         ],
-        "recipeYield": "Servings:3",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:12minutesminutes",
+        "recipeYield": "3",
+        "prepTime": "10 Minutes",
+        "cookTime": "12 Minutes",
+        "image": "../images/recipe_14_kimchijeon_kimchi_pancake_.jpg",
         "description": "This crispy flavor-packed kimchi pancakes are super easy to make with a few basic ingredients as long as you have some well fermented kimchi."
     },
     {
@@ -739,14 +753,14 @@
         "@type": "Recipe",
         "id": 15,
         "name": "Gyeran Mari (Rolled Omelette) with Seaweed",
-        "image": "images/recipe_15_gyeran_mari_rolled_omelette_with_seaweed.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢3eggs (see note 1)",
-            "▢1sheet gim (김) - dried seaweed (aka nori)See note 1",
-            "▢pinchsalt",
-            "▢oil for the pan"
+            "3  eggs (see note 1)",
+            "1  sheet gim (김) - dried seaweed (aka nori)",
+            "pinch salt",
+            "oil for the pan"
         ],
         "recipeInstructions": [
             {
@@ -778,9 +792,10 @@
                 "text": "Remove from the pan and let cool for about 5 minutes. Slice the egg into thick, even pieces (3/4 to 1-inch thick)."
             }
         ],
-        "recipeYield": "Servings:0",
+        "recipeYield": "0",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_15_gyeran_mari_rolled_omelette_with_seaweed.jpg",
         "description": "Easy Korean rolled omelette made simply with seaweed (gim), which adds a distinct flavor and a beautiful contrast of color. What is gyeran mari? Gyeran Gyeran mari (Korean rolled egg) made with gim (aka nori). This definitely is a family favorite!"
     },
     {
@@ -788,20 +803,20 @@
         "@type": "Recipe",
         "id": 16,
         "name": "Gamjajeon (Potato Pancakes)",
-        "image": "images/recipe_16_gamjajeon_potato_pancakes_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1/4medium onion - optional (see note)",
-            "▢1-1/2poundspotatoes (2 large or 3 medium)",
-            "▢1/4teaspoonsalt",
-            "▢2ouncesgarlic chives (buchu, 부추) - Optional",
-            "▢oil for pan frying",
-            "▢1tablespoonsoy sauce",
-            "▢1teaspoonvinegar",
-            "▢1tablespoonwater",
-            "▢1/2teaspoonsugar",
-            "▢pinchof black pepper"
+            "1/4  medium onion - optional (see note)",
+            "1-1/2 pounds potatoes (2 large or 3 medium)",
+            "1/4 teaspoon salt",
+            "2 ounces garlic chives (buchu, 부추) - Optional",
+            "oil for pan frying",
+            "1 tablespoon soy sauce",
+            "1 teaspoon vinegar",
+            "1 tablespoon water",
+            "1/2 teaspoon sugar",
+            "pinch of black pepper"
         ],
         "recipeInstructions": [
             {
@@ -821,9 +836,10 @@
                 "text": "Heat a skillet with two tablespoons of oil over medium heat. Add 1/2 of the batter, and spread it evenly into a round shape. You can make smaller pancakes if you like. Reduce the heat to medium to medium low, and cook until the bottom is light golden brown, about 2 to 3 minutes on each side. Repeat the process with the remaining batter. Serve hot with a dipping sauce."
             }
         ],
-        "recipeYield": "Servings:2",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:10minutesminutes",
+        "recipeYield": "2",
+        "prepTime": "10 Minutes",
+        "cookTime": "10 Minutes",
+        "image": "../images/recipe_16_gamjajeon_potato_pancakes_.jpg",
         "description": "If you have potatoes, you can make this crispy, chewy Korean potato pancake. Other vegetables are nice to have but not necessary. Enjoy gamjajeon as a"
     },
     {
@@ -831,25 +847,25 @@
         "@type": "Recipe",
         "id": 17,
         "name": "Nokdujeon (Mung Bean Pancakes)",
-        "image": "images/recipe_17_nokdujeon_mung_bean_pancakes_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢2cupsdried peeled and split mung beans*yields about 4 cups soaked",
-            "▢8ouncessukju namul (mung bean sprouts)",
-            "▢8ounceskimchi",
-            "▢6 - 8scallions",
-            "▢4ouncespork , ground or finely chopped",
-            "▢2teaspoonssoy sauce",
-            "▢1teaspoongarlic",
-            "▢1tablespoonsesame oil",
-            "▢salt",
-            "▢vegetable oil for pan frying",
-            "▢2tablespoonssoy sauce",
-            "▢1tablespoonvinegar(or to taste)",
-            "▢2tablespoonswater",
-            "▢pinchof black pepper",
-            "▢pinchof red pepper flakesgochugaru - optional"
+            "2 cups dried peeled and split mung beans*",
+            "8 ounces sukju namul (mung bean sprouts)",
+            "8 ounces kimchi",
+            "6 - 8  scallions",
+            "4 ounces pork , ground or finely chopped",
+            "2 teaspoons soy sauce",
+            "1 teaspoon garlic",
+            "1 tablespoon sesame oil",
+            "salt",
+            "vegetable oil for pan frying",
+            "2 tablespoons soy sauce",
+            "1 tablespoon vinegar",
+            "2 tablespoons water",
+            "pinch of black pepper",
+            "pinch of red pepper flakes"
         ],
         "recipeInstructions": [
             {
@@ -877,9 +893,10 @@
                 "text": "Serve hot off the pan with a dipping sauce."
             }
         ],
-        "recipeYield": "Servings:10",
-        "prepTime": "PTPrep Time:20minutesminutes",
-        "cookTime": "PTCook Time:25minutesminutes",
+        "recipeYield": "10",
+        "prepTime": "20 Minutes",
+        "cookTime": "25 Minutes",
+        "image": "../images/recipe_17_nokdujeon_mung_bean_pancakes_.jpg",
         "description": "Nokdujeon (or nokdu bindaetteok), is a type of savory Korean pancake made with ground mung beans. The result is crispy golden brown pancakes that are savory and nutty with some crunch from the vegetables."
     },
     {
@@ -887,30 +904,30 @@
         "@type": "Recipe",
         "id": 18,
         "name": "Glazed Korean Meatballs (Wanja Jorim)",
-        "image": "images/recipe_18_glazed_korean_meatballs_wanja_jorim_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1/2poundground beef",
-            "▢1/2poundground pork",
-            "▢4 to 5fresh shiitakeor any mushroom caps, finely chopped",
-            "▢1/4medium onionfinely chopped",
-            "▢2scallionsfinely chopped",
-            "▢1egg yolk",
-            "▢1tablespoonsoy sauce",
-            "▢2teaspoonsminced garlic",
-            "▢1teaspoonfinely grated ginger",
-            "▢saltabout 1/4 teaspoon and pepper to taste",
-            "▢1/2cupcornstarch or flour for dredging",
-            "▢1tablespoonsugar",
-            "▢3tablespoonssoy sauceYou can replace with 1 TB gochujang for a little spicy kick",
-            "▢3tablespoonsrice wineor mirin",
-            "▢3tablespoonswater",
-            "▢2tablespoonscorn syrupoligodang",
-            "▢2plump garlic clovesthinly sliced",
-            "▢1inchpiece gingerthinly sliced",
-            "▢chopped peanuts or pine nuts",
-            "▢chopped scallion"
+            "1/2 pound ground beef",
+            "1/2 pound ground pork",
+            "4 to 5  fresh shiitake",
+            "1/4  medium onion",
+            "2  scallions",
+            "1  egg yolk",
+            "1 tablespoon soy sauce",
+            "2 teaspoons minced garlic",
+            "1 teaspoon finely grated ginger",
+            "salt",
+            "1/2 cup cornstarch or flour for dredging",
+            "1 tablespoon sugar",
+            "3 tablespoons soy sauce",
+            "3 tablespoons rice wine",
+            "3 tablespoons water",
+            "2 tablespoons corn syrup",
+            "2  plump garlic cloves",
+            "1 inch piece ginger",
+            "chopped peanuts or pine nuts",
+            "chopped scallion"
         ],
         "recipeInstructions": [
             {
@@ -934,9 +951,10 @@
                 "text": "Add the meatballs to the sauce and simmer until the sauce becomes a thick glaze, turning to coat evenly, about 5 minutes. Sprinkle with the optional garnish. Serve warm with your choice of vegetables."
             }
         ],
-        "recipeYield": "Servings:3",
-        "prepTime": "PTPrep Time:30minutesminutes",
-        "cookTime": "PTCook Time:15minutesminutes",
+        "recipeYield": "3",
+        "prepTime": "30 Minutes",
+        "cookTime": "15 Minutes",
+        "image": "../images/recipe_18_glazed_korean_meatballs_wanja_jorim_.jpg",
         "description": "These Korean-style meatballs are glazed in a sweet and savory sauce. They are tender, moist and packed with lots of flavors!"
     },
     {
@@ -944,24 +962,24 @@
         "@type": "Recipe",
         "id": 19,
         "name": "Haemul Pajeon (Seafood Scallion Pancake)",
-        "image": "images/recipe_19_haemul_pajeon_seafood_scallion_pancake_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1-1/2 to 2cupsassortment of seafoodsquid, shrimp, mussels, oysters, clams, etc., cut into bite sizes",
-            "▢1tablespoonsesame oil",
-            "▢1 or 2bunches scallions",
-            "▢1red chili pepper - optional",
-            "▢1egglightly beaten - optional",
-            "▢1cupKorean pancake mix, buchim garu, 부침가루(or all purpose flour or gluten free flour with 1/2 teaspoon salt - See note)",
-            "▢1tablespoonsoy sauce",
-            "▢2 to 3teaspoonsvinegar",
-            "▢1tablespoonwater",
-            "▢pinchof black pepper",
-            "▢pinchof gochugaruKorean red chili pepper flakes",
-            "▢1/2teaspoonsugar - optional",
-            "▢1tablespoonchopped scallion - optional",
-            "▢1tablespoonDiced onion - optional"
+            "1-1/2 to 2 cups assortment of seafood",
+            "1 tablespoon sesame oil",
+            "1 or 2  bunches scallions",
+            "1  red chili pepper - optional",
+            "1  egg",
+            "1 cup Korean pancake mix, buchim garu, 부침가루",
+            "1 tablespoon soy sauce",
+            "2 to 3 teaspoons vinegar",
+            "1 tablespoon water",
+            "pinch of black pepper",
+            "pinch of gochugaru",
+            "1/2 teaspoon sugar - optional",
+            "1 tablespoon chopped scallion - optional",
+            "1 tablespoon Diced onion - optional"
         ],
         "recipeInstructions": [
             {
@@ -993,9 +1011,10 @@
                 "text": "Cut the scallions shorter, 2 to 3-inch lengths. You can mix everything with the batter, except the egg. Drizzle the egg over on top, and follow the direction above for pan-frying."
             }
         ],
-        "recipeYield": "Servings:4",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:20minutesminutes",
+        "recipeYield": "4",
+        "prepTime": "10 Minutes",
+        "cookTime": "20 Minutes",
+        "image": "../images/recipe_19_haemul_pajeon_seafood_scallion_pancake_.jpg",
         "description": "Haemul pajeon is a popular Korean savory pancake made with scallions and seafood. Enjoy your restaurant favorite at home with this easy recipe!  "
     },
     {
@@ -1003,16 +1022,16 @@
         "@type": "Recipe",
         "id": 20,
         "name": "Gyeran Mari (Rolled Omelette)",
-        "image": "images/recipe_20_gyeran_mari_rolled_omelette_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢3large eggsYou can use 5 or more eggs for thicker rolls",
-            "▢1or 1.5 tablespoons finely chopped scallion",
-            "▢1or 1.5 tablespoons finely chopped carrot",
-            "▢Salt to tasteabout ⅛",
-            "▢Pinchblack pepper",
-            "▢vegetable oil for frying"
+            "3  large eggs",
+            "1  or 1.5 tablespoons finely chopped scallion",
+            "1  or 1.5 tablespoons finely chopped carrot",
+            "Salt to taste",
+            "Pinch black pepper",
+            "vegetable oil for frying"
         ],
         "recipeInstructions": [
             {
@@ -1052,9 +1071,10 @@
                 "text": "Remove from the pan and let cool for about 5 minutes. Slice the egg into thick, even pieces (3/4 to 1-inch thick)."
             }
         ],
-        "recipeYield": "Servings:2",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:5minutesminutes",
+        "recipeYield": "2",
+        "prepTime": "10 Minutes",
+        "cookTime": "5 Minutes",
+        "image": "../images/recipe_20_gyeran_mari_rolled_omelette_.jpg",
         "description": "This rolled egg recipe is made with chopped carrot and scallion. It’s a popular side dish, especially for a lunch box, that you can easily whip up in no Gyeran mari is Korean-style rolled omelette. It’s a popular side dish, especially for a lunch box, that's easy to whip up in no time!"
     },
     {
@@ -1062,26 +1082,26 @@
         "@type": "Recipe",
         "id": 21,
         "name": "Shrimp Salad with Hot Mustard Dressing (Saewu Naengchae)",
-        "image": "images/recipe_21_shrimp_salad_with_hot_mustard_dressing_saewu_naengchae_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢2teaspoonshot mustard powder (gyeoja, 겨자)If using prepared paste, use 1 tablespoon and add 1 tablespoon water to thin it.",
-            "▢1tablespoonvinegar",
-            "▢1teaspoonsoy sauce",
-            "▢2teaspoonssugar",
-            "▢1/2teaspoonminced garlic",
-            "▢⅛teaspoonsalt",
-            "▢2Kirby (pickling) cucumbers (or 1 Korean cucumber)",
-            "▢1/2Korean pear",
-            "▢radish sprouts for garnishoptional",
-            "▢1/4lemon",
-            "▢Optional vegetables:",
-            "▢1/4red bell pepper",
-            "▢1/4orange bell pepper",
-            "▢10large shrimp21-25 counts, shelled and deveined (more if using smaller shrimp)",
-            "▢1/4lemon",
-            "▢1teaspoonsalt"
+            "2 teaspoons hot mustard powder (gyeoja, 겨자)",
+            "1 tablespoon vinegar",
+            "1 teaspoon soy sauce",
+            "2 teaspoons sugar",
+            "1/2 teaspoon minced garlic",
+            "⅛ teaspoon salt",
+            "2  Kirby (pickling) cucumbers (or 1 Korean cucumber)",
+            "1/2  Korean pear",
+            "radish sprouts for garnish",
+            "1/4  lemon",
+            "Optional vegetables:",
+            "1/4  red bell pepper",
+            "1/4  orange bell pepper",
+            "10  large shrimp",
+            "1/4  lemon",
+            "1 teaspoon salt"
         ],
         "recipeInstructions": [
             {
@@ -1109,9 +1129,10 @@
                 "text": "Nicely arrange the cucumber, pear and shrimp (or optional julienned vegetables and pear) on a plate. Spoon the dressing over, or serve it on the side. Garnish with optional radish sprouts and/or lemon."
             }
         ],
-        "recipeYield": "Servings:2",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:5minutesminutes",
+        "recipeYield": "2",
+        "prepTime": "10 Minutes",
+        "cookTime": "5 Minutes",
+        "image": "../images/recipe_21_shrimp_salad_with_hot_mustard_dressing_saewu_naengchae_.jpg",
         "description": "This simple and refreshing shrimp salad is packed with flavors and heat! Perfect as an elegant starter, a side dish or a light meal!"
     },
     {
@@ -1119,29 +1140,29 @@
         "@type": "Recipe",
         "id": 22,
         "name": "Chicken Salad with Pine Nut Dressing",
-        "image": "images/recipe_22_chicken_salad_with_pine_nut_dressing.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢4tablespoonspine nuts",
-            "▢1tablespoonrice wine vinegaror any clear vinegar",
-            "▢1tablespoonlemon juice",
-            "▢2tablespoonswater",
-            "▢1teaspoonhot mustard paste – gyeoja, 겨or dijon or yellow mustard if desired",
-            "▢1tablespoonsugar",
-            "▢1/2teaspoonminced garlic",
-            "▢salt to tasteabout 1/2 teaspoon",
-            "▢1chicken breast8 to 10 ounces",
-            "▢1/4medium onion",
-            "▢1/2stalk celery",
-            "▢1/2carrot",
-            "▢3garlic cloves",
-            "▢1bay leaf - optional",
-            "▢a handful spring mix or other salad vegetables of choice",
-            "▢2 to 3red radishesthinly sliced",
-            "▢1/4red bell pepperjulienned",
-            "▢1/4yellow bell pepperjulienned",
-            "▢1small Kirby cucumbercut lengthwise and then thinly sliced diagonally"
+            "4 tablespoons pine nuts",
+            "1 tablespoon rice wine vinegar",
+            "1 tablespoon lemon juice",
+            "2 tablespoons water",
+            "1 teaspoon hot mustard paste – gyeoja, 겨",
+            "1 tablespoon sugar",
+            "1/2 teaspoon minced garlic",
+            "salt to taste",
+            "1  chicken breast",
+            "1/4  medium onion",
+            "1/2  stalk celery",
+            "1/2  carrot",
+            "3  garlic cloves",
+            "1  bay leaf - optional",
+            "a handful spring mix or other salad vegetables of choice",
+            "2 to 3  red radishes",
+            "1/4  red bell pepper",
+            "1/4  yellow bell pepper",
+            "1  small Kirby cucumber"
         ],
         "recipeInstructions": [
             {
@@ -1169,9 +1190,10 @@
                 "text": "OR thinly slice the optional vegetables and mix well with the chicken salad before serving."
             }
         ],
-        "recipeYield": "Servings:2",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:15minutesminutes",
+        "recipeYield": "2",
+        "prepTime": "10 Minutes",
+        "cookTime": "15 Minutes",
+        "image": "../images/recipe_22_chicken_salad_with_pine_nut_dressing.jpg",
         "description": "This Korean chicken salad recipe is made with breast meat and a pine nut dressing! It’s a healthy dish you can easily make for a quick lunch."
     },
     {
@@ -1179,28 +1201,28 @@
         "@type": "Recipe",
         "id": 23,
         "name": "Kimchi Mandu (Kimchi Dumplings)",
-        "image": "images/recipe_23_kimchi_mandu_kimchi_dumplings_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢Makes about 40 dumplings",
-            "▢40dumpling wrappersslightly thick",
-            "▢2ouncesdangmyeonsweet potato starch noodles, soaked in warm water for about 30 min.",
-            "▢1cuppacked finely chopped kimchi",
-            "▢8ouncestofu",
-            "▢10ouncesmung bean sprouts, sukju namul (숙주나물)",
-            "▢1/2medium onion",
-            "▢2 to 3scallions",
-            "▢8ouncesground pork or beef (or mix)",
-            "▢1tablespoonminced garlic",
-            "▢1teaspoonfinely grated ginger or juiced",
-            "▢1tablespoonsesame oil",
-            "▢1tablespoonsoy sauce",
-            "▢1tablespoongochugaru (adjust to taste)",
-            "▢salt to tasteabout 1/4 teaspoon",
-            "▢pepper to tasteabout ⅛ teaspoon",
-            "▢1tablespoonPerilla seed oil (in lieu of sesame oil)",
-            "▢2 to 4tablespoonsground perilla seeds"
+            "Makes about 40 dumplings",
+            "40  dumpling wrappers",
+            "2 ounces dangmyeon",
+            "1 cup packed finely chopped kimchi",
+            "8 ounces tofu",
+            "10 ounces mung bean sprouts, sukju namul (숙주나물)",
+            "1/2  medium onion",
+            "2 to 3  scallions",
+            "8 ounces ground pork or beef (or mix)",
+            "1 tablespoon minced garlic",
+            "1 teaspoon finely grated ginger or juiced",
+            "1 tablespoon sesame oil",
+            "1 tablespoon soy sauce",
+            "1 tablespoon gochugaru (adjust to taste)",
+            "salt to taste",
+            "pepper to taste",
+            "1 tablespoon Perilla seed oil (in lieu of sesame oil)",
+            "2 to 4 tablespoons ground perilla seeds"
         ],
         "recipeInstructions": [
             {
@@ -1232,9 +1254,10 @@
                 "text": "For boiling, pan-frying and deep-frying dumplings, see my other mandurecipe."
             }
         ],
-        "recipeYield": "Servings:35dumplings",
+        "recipeYield": "35",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_23_kimchi_mandu_kimchi_dumplings_.jpg",
         "description": "These Korean dumplings filled with a kimchi mixture are highly popular in Korea. Kimchi adds tons of spicy and savory flavors to the dumplings."
     },
     {
@@ -1242,32 +1265,32 @@
         "@type": "Recipe",
         "id": 24,
         "name": "Tangsuyuk (Sweet and Sour Beef or Pork)",
-        "image": "images/recipe_24_tangsuyuk_sweet_and_sour_beef_or_pork_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢10ouncestender cut of pork or beef (such as pork loin or beef sirloin)",
-            "▢salt and pepper",
-            "▢1/2teaspoongrated ginger",
-            "▢1cuppotato starchor corn starch, soaked in 1 cup of water for 2 to 3 hours",
-            "▢2tablespoonslightly beaten egg",
-            "▢1tablespooncanola oil",
-            "▢4cupscanola or vegetable oil for deep frying",
-            "▢1/2small carrot",
-            "▢1/4small onion",
-            "▢1 ouncewood ear mushrooms - optional",
-            "▢1/2small cucumberor 1/4 green bell pepper",
-            "▢1cupwater",
-            "▢1tablespoonsoy sauce",
-            "▢4tablespoonssugar",
-            "▢2tablespoonsvinegar (or to taste)",
-            "▢pinchsalt",
-            "▢Starch slurry – 2 tablespoons starch* in 4 tablespoons water",
-            "▢1tablespoonsoy sauce",
-            "▢1tablespoonwater",
-            "▢1teaspoonvinegar",
-            "▢pinchblack pepper",
-            "▢pinchred chili pepper flakesgochugaru"
+            "10 ounces tender cut of pork or beef (such as pork loin or beef sirloin)",
+            "salt and pepper",
+            "1/2 teaspoon grated ginger",
+            "1 cup potato starch",
+            "2 tablespoons lightly beaten egg",
+            "1 tablespoon canola oil",
+            "4 cups canola or vegetable oil for deep frying",
+            "1/2  small carrot",
+            "1/4  small onion",
+            "1 ounce  wood ear mushrooms - optional",
+            "1/2  small cucumber",
+            "1 cup water",
+            "1 tablespoon soy sauce",
+            "4 tablespoons sugar",
+            "2 tablespoons vinegar (or to taste)",
+            "pinch salt",
+            "Starch slurry – 2 tablespoons starch* in 4 tablespoons water",
+            "1 tablespoon soy sauce",
+            "1 tablespoon water",
+            "1 teaspoon vinegar",
+            "pinch black pepper",
+            "pinch red chili pepper flakes"
         ],
         "recipeInstructions": [
             {
@@ -1315,9 +1338,10 @@
                 "text": "Place the meat on a large serving plate and pour the tangsuyuk sauce on top or serve the sauce on the side. Serve immediately with the optional dipping sauce."
             }
         ],
-        "recipeYield": "Servings:3",
-        "prepTime": "PTPrep Time:20minutesminutes",
-        "cookTime": "PTCook Time:15minutesminutes",
+        "recipeYield": "3",
+        "prepTime": "20 Minutes",
+        "cookTime": "15 Minutes",
+        "image": "../images/recipe_24_tangsuyuk_sweet_and_sour_beef_or_pork_.jpg",
         "description": "Tangsuyuk is a Chinese sweet and sour pork dish adapted for Korean taste. It can also be made with beef."
     },
     {
@@ -1325,31 +1349,31 @@
         "@type": "Recipe",
         "id": 25,
         "name": "Mandu (Korean Dumplings)",
-        "image": "images/recipe_25_mandu_korean_dumplings_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1package dumpling skins/wrappers (about 40 pieces), 만두피 (mandu pi)",
-            "▢8ounceszucchinifinely chopped",
-            "▢10ouncesgreen cabbagefinely chopped",
-            "▢4ouncesfresh mushroomsfinely chopped (shiitaki preferably)",
-            "▢1/2medium onionfinely chopped",
-            "▢2scallionsfinely chopped",
-            "▢1/2poundground porkor other meat if preferred",
-            "▢1/4poundground beef",
-            "▢1tablespoonminced garlic",
-            "▢1 to 2teaspoonsfinely minced gingeror juiced",
-            "▢1tablespoonsoy sauce",
-            "▢1tablespoonsesame oil",
-            "▢1egg",
-            "▢1/4teaspoonsalt to season the filling and more for salting vegetables",
-            "▢⅛teaspoonpepper",
-            "▢1tablespoonsoy sauce",
-            "▢1teaspoonvinegar",
-            "▢1tablespoonwater",
-            "▢1/2teaspoonsugar",
-            "▢pinchof black pepper",
-            "▢pinchof red pepper flakesgochugaru"
+            "1  package dumpling skins/wrappers (about 40 pieces), 만두피 (mandu pi)",
+            "8 ounces zucchini",
+            "10 ounces green cabbage",
+            "4 ounces fresh mushrooms",
+            "1/2  medium onion",
+            "2  scallions",
+            "1/2 pound ground pork",
+            "1/4 pound ground beef",
+            "1 tablespoon minced garlic",
+            "1 to 2 teaspoons finely minced ginger",
+            "1 tablespoon soy sauce",
+            "1 tablespoon sesame oil",
+            "1  egg",
+            "1/4 teaspoon salt to season the filling and more for salting vegetables",
+            "⅛ teaspoon pepper",
+            "1 tablespoon soy sauce",
+            "1 teaspoon vinegar",
+            "1 tablespoon water",
+            "1/2 teaspoon sugar",
+            "pinch of black pepper",
+            "pinch of red pepper flakes"
         ],
         "recipeInstructions": [
             {
@@ -1385,9 +1409,10 @@
                 "text": "Bring a pot of water to a boil. Add mandu (stirring gently so they don’t stick to the bottom of the pot) a few at a time, and cook until all of them come up to the surface. Continue to cook for another minute or two."
             }
         ],
-        "recipeYield": "Servings:8",
+        "recipeYield": "8",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_25_mandu_korean_dumplings_.jpg",
         "description": "Learn how to make Korean dumplings (mandu) with this easy to follow recipe! They are so delicious and versatile! Dumplings are much easier than you think!"
     },
     {
@@ -1395,23 +1420,23 @@
         "@type": "Recipe",
         "id": 26,
         "name": "Dubu Kimchi (Tofu with Stir-fried Kimchi and Pork)",
-        "image": "images/recipe_26_dubu_kimchi_tofu_with_stir_fried_kimchi_and_pork_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢2cupsfully fermented kimchi",
-            "▢1/2poundthinly sliced pork or pork belly",
-            "▢1/2onion",
-            "▢2scallions",
-            "▢1teaspoongrated ginger",
-            "▢1tablespoonminced garlic",
-            "▢1tablespoonsoy sauce",
-            "▢1tablespoonsugar",
-            "▢1tablespoonsesame oil",
-            "▢2 - 3tablespoonsgochujang (고추장), Korean red chili pepper paste",
-            "▢1teaspoonsesame seeds",
-            "▢pinchpepper",
-            "▢1 18-ozpackage tofu"
+            "2 cups fully fermented kimchi",
+            "1/2 pound thinly sliced pork or pork belly",
+            "1/2  onion",
+            "2  scallions",
+            "1 teaspoon grated ginger",
+            "1 tablespoon minced garlic",
+            "1 tablespoon soy sauce",
+            "1 tablespoon sugar",
+            "1 tablespoon sesame oil",
+            "2 - 3 tablespoons gochujang (고추장), Korean red chili pepper paste",
+            "1 teaspoon sesame seeds",
+            "pinch pepper",
+            "1 18- oz package tofu"
         ],
         "recipeInstructions": [
             {
@@ -1431,9 +1456,10 @@
                 "text": "Arrange the tofu slices nicely on a plate leaving an open space in the middle part. Place the stir-fried kimchi and pork in the middle and serve. Or, you can serve the stir-fried kimchi and tofu side by side."
             }
         ],
-        "recipeYield": "Servings:2",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:10minutesminutes",
+        "recipeYield": "2",
+        "prepTime": "10 Minutes",
+        "cookTime": "10 Minutes",
+        "image": "../images/recipe_26_dubu_kimchi_tofu_with_stir_fried_kimchi_and_pork_.jpg",
         "description": "Kimchi is stir-fried with pork and served with sliced tofu that has been either boiled or pan-fried. Dubu kimchi is a popular drinking snack in Korea."
     },
     {
@@ -1441,25 +1467,25 @@
         "@type": "Recipe",
         "id": 27,
         "name": "Tteokbokki (Spicy Stir-fried Rice Cakes)",
-        "image": "images/recipe_27_tteokbokki_spicy_stir_fried_rice_cakes_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1poundtteokbokki tteok 떡볶이 떡 (about 24 3-inch long rice cake pieces)See Note 1",
-            "▢1-2eomuk 어묵 (fish cake) sheets",
-            "▢4ouncesgreen cabbage (yangbaechu, 양배추)",
-            "▢1-2or scallions",
-            "▢1tablespoonminced garlic",
-            "▢8-10medium to large dried anchovies (마른멸치), about 0.5 ounces (15 grams)Or simply use abroth packet.",
-            "▢1piece dasima (dried kelp), about 3-inch square",
-            "▢1/4medium onion, roughly sliced",
-            "▢3cupsanchovy brothor water (use 4 cups for more sauce)",
-            "▢3tablespoonsgochujang, 고추장See Note 2",
-            "▢1-3teaspoonsgochugaru, 고추가루See Note 3",
-            "▢1tablespoonsoy sauce",
-            "▢2tablespoonssugar (use 1 tablespoon for less sweet tteokbokki)",
-            "▢1tablespooncorn syrup (or oligo syrup) - use more sugar if not using",
-            "▢2boiled eggs"
+            "1 pound tteokbokki tteok 떡볶이 떡 (about 24 3-inch long rice cake pieces)",
+            "1-2  eomuk 어묵 (fish cake) sheets",
+            "4 ounces green cabbage (yangbaechu, 양배추)",
+            "1-2  or scallions",
+            "1 tablespoon minced garlic",
+            "8-10  medium to large dried anchovies (마른멸치), about 0.5 ounces (15 grams)",
+            "1  piece dasima (dried kelp), about 3-inch square",
+            "1/4  medium onion, roughly sliced",
+            "3 cups anchovy broth",
+            "3 tablespoons gochujang, 고추장",
+            "1-3 teaspoons gochugaru, 고추가루",
+            "1 tablespoon soy sauce",
+            "2 tablespoons sugar (use 1 tablespoon for less sweet tteokbokki)",
+            "1 tablespoon corn syrup (or oligo syrup) - use more sugar if not using",
+            "2  boiled eggs"
         ],
         "recipeInstructions": [
             {
@@ -1487,9 +1513,10 @@
                 "text": "Drop the vegetables, garlic, and fish cakes in. Continue to boil, stirring occasionally, for an additional 4 - 6 minutes. Depending on rice cakes, you may need more time to reach a desired level of softness. Add more broth or water as necessary. Drop in the scallions and boiled eggs with 2 to 3 minutes remaining. Taste the sauce, and adjust the seasoning if needed. Serve hot."
             }
         ],
-        "recipeYield": "Servings:3",
-        "prepTime": "PTPrep Time:20minutesminutes",
-        "cookTime": "PTCook Time:20minutesminutes",
+        "recipeYield": "3",
+        "prepTime": "20 Minutes",
+        "cookTime": "20 Minutes",
+        "image": "../images/recipe_27_tteokbokki_spicy_stir_fried_rice_cakes_.jpg",
         "description": "This Korean spicy rice cake dish is No. 1 street food in Korea. Make it at home with this easy tteokbokki recipe! Simply addictive!"
     },
     {
@@ -1497,23 +1524,23 @@
         "@type": "Recipe",
         "id": 28,
         "name": "Hobak Buchim (Zucchini Pancakes)",
-        "image": "images/recipe_28_hobak_buchim_zucchini_pancakes_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1medium zucchiniabout 8 ounces",
-            "▢1/2teaspoonsalt",
-            "▢1/4medium sweet onion, thinly sliced",
-            "▢2green or red chili peppers, thinly sliced -- optionalSee note 1",
-            "▢1/2cupbuchim garu (Korean savory pancake mix)or flour (See note 2)",
-            "▢1large egg - optional (omit for a vegan version)If not using, add some water",
-            "▢vegetable or canola oil for frying",
-            "▢1tablespoonsoy sauce",
-            "▢1teaspoonvinegar",
-            "▢1tablespoonwater",
-            "▢1/2teaspoonsugar",
-            "▢pinchof black pepper",
-            "▢pinchgochugaru (Korean red chili pepper flakes)"
+            "1  medium zucchini",
+            "1/2 teaspoon salt",
+            "1/4  medium sweet onion, thinly sliced",
+            "2  green or red chili peppers, thinly sliced -- optional",
+            "1/2 cup buchim garu (Korean savory pancake mix)",
+            "1  large egg - optional (omit for a vegan version)",
+            "vegetable or canola oil for frying",
+            "1 tablespoon soy sauce",
+            "1 teaspoon vinegar",
+            "1 tablespoon water",
+            "1/2 teaspoon sugar",
+            "pinch of black pepper",
+            "pinch gochugaru (Korean red chili pepper flakes)"
         ],
         "recipeInstructions": [
             {
@@ -1529,9 +1556,10 @@
                 "text": "Heat a skillet with two tablespoons of oil over medium high heat. Add about 2 heaping tablespoons of the batter and spread it evenly into a thin round shape. You can also add more batter to make it a large pancake, if preferred (see note 3). Depending on the size of your pan, you can cook 3 to 4 pancakes at once. Reduce the heat to medium, and cook until the bottom is light golden brown, about 2 minutes on each side. Repeat the process with the remaining batter. Serve hot with a dipping sauce."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_28_hobak_buchim_zucchini_pancakes_.jpg",
         "description": "These Korean savory pancakes, hobak buchim, are quick and easy and so delicious with summer zucchini as a snack, an appetizer, or a light vegan meal!"
     },
     {
@@ -1539,18 +1567,18 @@
         "@type": "Recipe",
         "id": 29,
         "name": "Eomuk Guk (Fish Cake Soup)",
-        "image": "images/recipe_29_eomuk_guk_fish_cake_soup_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢12ounceseomukfish cake",
-            "▢8ouncesKorean radishmu",
-            "▢1teaspoonminced garlic",
-            "▢1/2tablespoonsoy sauce",
-            "▢1/2tablespoonsoup soy sauce",
-            "▢1scallionroughly chopped",
-            "▢salt and pepper to taste",
-            "▢8cupsanchovy brothmade with 1 optional dried or red chili pepper - Seeanchovy brothfor the recipe."
+            "12 ounces eomuk",
+            "8 ounces Korean radish",
+            "1 teaspoon minced garlic",
+            "1/2 tablespoon soy sauce",
+            "1/2 tablespoon soup soy sauce",
+            "1  scallion",
+            "salt and pepper to taste",
+            "8 cups anchovy broth"
         ],
         "recipeInstructions": [
             {
@@ -1578,9 +1606,10 @@
                 "text": "Drop the fish cake in, and boil for a few more minutes. Add salt and pepper to taste. Drop the scallion in before turning off the heat."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_29_eomuk_guk_fish_cake_soup_.jpg",
         "description": "When it’s cold outside, skewered eomuk (어묵) simmered in a light savory broth is hugely popular at street food carts and stalls in Korea. At home, eomuk guk (fish cake soup) can be prepared without skewers as an easy everyday soup! Such a comfort food!"
     },
     {
@@ -1588,26 +1617,26 @@
         "@type": "Recipe",
         "id": 30,
         "name": "Crispy Guljeon (Korean-style Oyster Fritters)",
-        "image": "images/recipe_30_crispy_guljeon_korean_style_oyster_fritters_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢Makes 7 to 9 about 3-inch fritters",
-            "▢8ouncesoystersgul, 굴",
-            "▢½small carrot",
-            "▢1scallion",
-            "▢2mushroom capsany fresh mushrooms",
-            "▢1cupbuchim garuready-made pancake mix or flour (see note)",
-            "▢1tablespooncorn or potato starch",
-            "▢1/4teaspoonbaking soda",
-            "▢1teaspoonsesame oil",
-            "▢oil for frying",
-            "▢1tablespoonsoy sauce",
-            "▢1teaspoonvinegar",
-            "▢1tablespoonwater",
-            "▢1/2teaspoonsugar",
-            "▢pinchof black pepper",
-            "▢pinchof gochugaruKorean red chili pepper flakes"
+            "Makes 7 to 9 about 3-inch fritters",
+            "8 ounces oysters",
+            "½  small carrot",
+            "1  scallion",
+            "2  mushroom caps",
+            "1 cup buchim garu",
+            "1 tablespoon corn or potato starch",
+            "1/4 teaspoon baking soda",
+            "1 teaspoon sesame oil",
+            "oil for frying",
+            "1 tablespoon soy sauce",
+            "1 teaspoon vinegar",
+            "1 tablespoon water",
+            "1/2 teaspoon sugar",
+            "pinch of black pepper",
+            "pinch of gochugaru"
         ],
         "recipeInstructions": [
             {
@@ -1631,9 +1660,10 @@
                 "text": "Heat 1/4-inch oil in a non-stick pan over medium high heat. Add about 2 heaping tablespoons of the batter, and spread it evenly into a small round shape. Depending on the size of your pan, you can cook 5 to 6 pancakes at once. Cook until the bottom is golden brown, about 2 minutes on each side. Repeat the process with the remaining batter. Serve hot with a dipping sauce."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_30_crispy_guljeon_korean_style_oyster_fritters_.jpg",
         "description": "These Korean-style oyster fritters are made with the typical Korean savory pancake batter, loaded with oysters, and fried to perfection! Crispy outside, delicately soft inside!"
     },
     {
@@ -1641,26 +1671,26 @@
         "@type": "Recipe",
         "id": 31,
         "name": "Spicy Seafood Japchae",
-        "image": "images/recipe_31_spicy_seafood_japchae.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢4ouncesdangmyeon당면 (Korean sweet potato starch noodles)",
-            "▢1tablespoonvegetable or canola oil",
-            "▢1tablespoonsesame oil",
-            "▢1/2 to 1tablespoongochugarupreferably finely ground - see note",
-            "▢1small squidabout 4 ounces",
-            "▢8small shrimppeeled and deveined",
-            "▢1/4medium onionthinly sliced",
-            "▢⅓small carrotcut into matchsticks",
-            "▢2 to 3fresh shiitake mushroomsor mushrooms of your choice, thinly sliced",
-            "▢2ouncesenoki mushrooms - optional",
-            "▢1scallionsliced diagonally",
-            "▢Salt and pepper",
-            "▢2tablespoonssoy sauce",
-            "▢1-1/2tablespoonssugar",
-            "▢2teaspoonsminced garlic",
-            "▢1tablespoonsesame oil"
+            "4 ounces dangmyeon",
+            "1 tablespoon vegetable or canola oil",
+            "1 tablespoon sesame oil",
+            "1/2 to 1 tablespoon gochugaru",
+            "1  small squid",
+            "8  small shrimp",
+            "1/4  medium onion",
+            "⅓  small carrot",
+            "2 to 3  fresh shiitake mushrooms",
+            "2 ounces enoki mushrooms - optional",
+            "1  scallion",
+            "Salt and pepper",
+            "2 tablespoons soy sauce",
+            "1-1/2 tablespoons sugar",
+            "2 teaspoons minced garlic",
+            "1 tablespoon sesame oil"
         ],
         "recipeInstructions": [
             {
@@ -1696,9 +1726,10 @@
                 "text": "Return the noodles to the pan, and toss everything well together. You can add a bit more sugar and/or soy sauce to taste."
             }
         ],
-        "recipeYield": "Servings:2",
+        "recipeYield": "2",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_31_spicy_seafood_japchae.jpg",
         "description": "This recipe is another variation of japchae, Korean stir-fried glass noodles! The japchae is made spicy with seafood. It has a nice and clean spicy kick!"
     },
     {
@@ -1706,23 +1737,23 @@
         "@type": "Recipe",
         "id": 32,
         "name": "Seafood Cheese Tteokbokki (Spicy Rice Cake)",
-        "image": "images/recipe_32_seafood_cheese_tteokbokki_spicy_rice_cake_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1poundtteokbokki tteok떡볶이 떡",
-            "▢1small piece dashima (about 3 inch square), dried kelp",
-            "▢6small shrimpsave shells if peeling",
-            "▢1/2small squid",
-            "▢3ouncesgreen cabbage (yangbaechu, 양배추)",
-            "▢1scallion",
-            "▢1/2cupmozzarella cheese (or pizza blend)Use more if desired",
-            "▢1tablespoongochujang, 고추장 (Korean red chili pepper paste)",
-            "▢1tablespoonsgochugaru, 고추가루  (Korean red chili pepper flakes)adjust to taste - see note",
-            "▢1.5tablespoonssoy sauce",
-            "▢1tablespoonsugar",
-            "▢1tablespooncorn syrup or oligo syrupor use more sugar (about ⅔ tablespoon)",
-            "▢2teaspoonsminced garlic"
+            "1 pound tteokbokki tteok",
+            "1  small piece dashima (about 3 inch square), dried kelp",
+            "6  small shrimp",
+            "1/2  small squid",
+            "3 ounces green cabbage (yangbaechu, 양배추)",
+            "1  scallion",
+            "1/2 cup mozzarella cheese (or pizza blend)",
+            "1 tablespoon gochujang, 고추장 (Korean red chili pepper paste)",
+            "1 tablespoons gochugaru, 고추가루  (Korean red chili pepper flakes)",
+            "1.5 tablespoons soy sauce",
+            "1 tablespoon sugar",
+            "1 tablespoon corn syrup or oligo syrup",
+            "2 teaspoons minced garlic"
         ],
         "recipeInstructions": [
             {
@@ -1754,9 +1785,10 @@
                 "text": "Add the cheese on top. You can melt the cheese over the stove top, covered, or in the microwave, or under the oven broiler."
             }
         ],
-        "recipeYield": "Servings:3",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:30minutesminutes",
+        "recipeYield": "3",
+        "prepTime": "10 Minutes",
+        "cookTime": "30 Minutes",
+        "image": "../images/recipe_32_seafood_cheese_tteokbokki_spicy_rice_cake_.jpg",
         "description": "A modern twist of Korean spicy rice cake (tteokbokki)! This tteokbokki recipe is made with seafood and cheese. So flavorful and comforting!"
     },
     {
@@ -1764,25 +1796,25 @@
         "@type": "Recipe",
         "id": 33,
         "name": "Soupy Tteokbokki (Spicy Braised Rice Cake)",
-        "image": "images/recipe_33_soupy_tteokbokki_spicy_braised_rice_cake_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1poundtteokbokki tteok떡볶이떡 (2 to 3-inch long rice cake pieces or oval shapes)",
-            "▢8ouncesnapa cabbageor green cabbage",
-            "▢2sheets eomuk어묵, (fish cakes - aka oden)",
-            "▢2scallions",
-            "▢1/4onion",
-            "▢2soft boiled eggs - optional",
-            "▢1/2of 1 package raw ramen noodles - optional",
-            "▢5 to 6cupsanchovy broth",
-            "▢3tablespoonsgochugaru고추가루, Korean red chili pepper flakes, preferably finely ground",
-            "▢2tablespoonssoy sauce",
-            "▢1tablespoonsugar",
-            "▢1tablespooncorn syrup or oligodangor use 1/2 tablespoon more sugar",
-            "▢1tablespoongarlic",
-            "▢1/2teaspoonsalt",
-            "▢pinchpepper"
+            "1 pound tteokbokki tteok",
+            "8 ounces napa cabbage",
+            "2  sheets eomuk",
+            "2  scallions",
+            "1/4  onion",
+            "2  soft boiled eggs - optional",
+            "1/2  of 1 package raw ramen noodles - optional",
+            "5 to 6 cups anchovy broth",
+            "3 tablespoons gochugaru",
+            "2 tablespoons soy sauce",
+            "1 tablespoon sugar",
+            "1 tablespoon corn syrup or oligodang",
+            "1 tablespoon garlic",
+            "1/2 teaspoon salt",
+            "pinch pepper"
         ],
         "recipeInstructions": [
             {
@@ -1806,9 +1838,10 @@
                 "text": "Add the rice cakes and cook, stirring occasionally. When the rice cakes started to soften, throw in the vegetables, fish cakes, and the optional eggs. Continue to boil, stirring occasionally, until the rice cakes and vegetables are soft, about 10 minutes. Add the optional noodles with 2 minutes remaining."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_33_soupy_tteokbokki_spicy_braised_rice_cake_.jpg",
         "description": "This soupy Korean spicy rice cake (tteokbokki) uses a lot more broth so the spicy, flavorful broth can be enjoyed along with the rice cakes."
     },
     {
@@ -1816,36 +1849,36 @@
         "@type": "Recipe",
         "id": 34,
         "name": "Gujeolpan (Platter of Nine Delicacies)",
-        "image": "images/recipe_34_gujeolpan_platter_of_nine_delicacies_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢4ounceslean beef",
-            "▢2teaspoonssoy sauce",
-            "▢1teaspoonsugar",
-            "▢1/2teaspoonminced garlic",
-            "▢1teaspoonsesame oil",
-            "▢Pinchpepper",
-            "▢3dried shiitake mushroomssoaked (or 3 ounces fresh shiitake)",
-            "▢1/2teaspoonsoy sauce",
-            "▢1/4teaspoongarlic",
-            "▢1/4teaspoonsugar",
-            "▢1teaspoonsesame oil",
-            "▢pinchsalt and pepper",
-            "▢2kirby cucumbersor 1 long variety cucumber",
-            "▢1medium zucchini",
-            "▢1medium carrot",
-            "▢5large shrimpde-veined",
-            "▢3large eggs",
-            "▢Batter:makes about 24 pancakes",
-            "▢1cupflour",
-            "▢1/2teaspoonsalt",
-            "▢1 - ⅓cupwater",
-            "▢1tablespoonprepared hot mustard",
-            "▢1teaspoonsugar",
-            "▢1tablespoonvinegar",
-            "▢1teaspoonsoy sauce",
-            "▢1tablespoonwateror maesilcheong, Korean plum extract"
+            "4 ounces lean beef",
+            "2 teaspoons soy sauce",
+            "1 teaspoon sugar",
+            "1/2 teaspoon minced garlic",
+            "1 teaspoon sesame oil",
+            "Pinch pepper",
+            "3  dried shiitake mushrooms",
+            "1/2 teaspoon soy sauce",
+            "1/4 teaspoon garlic",
+            "1/4 teaspoon sugar",
+            "1 teaspoon sesame oil",
+            "pinch salt and pepper",
+            "2  kirby cucumbers",
+            "1  medium zucchini",
+            "1  medium carrot",
+            "5  large shrimp",
+            "3  large eggs",
+            "Batter:",
+            "1 cup flour",
+            "1/2 teaspoon salt",
+            "1 - ⅓ cup water",
+            "1 tablespoon prepared hot mustard",
+            "1 teaspoon sugar",
+            "1 tablespoon vinegar",
+            "1 teaspoon soy sauce",
+            "1 tablespoon water"
         ],
         "recipeInstructions": [
             {
@@ -1897,9 +1930,10 @@
                 "text": "In a small bowl, mix the hot mustard paste and sugar until the sugar is dissolved. Add the remaining liquid ingredients and mix well again. Serve with the gujeolpan."
             }
         ],
-        "recipeYield": "Servings:6",
+        "recipeYield": "6",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_34_gujeolpan_platter_of_nine_delicacies_.jpg",
         "description": "Gujeolpan is a beautiful and nutritionally well-balanced Korean traditional platter with 8 delicate fillings that are served with thin crepe-like pancakes."
     },
     {
@@ -1907,24 +1941,24 @@
         "@type": "Recipe",
         "id": 35,
         "name": "Buchujeon (Garlic Chive Pancakes)",
-        "image": "images/recipe_35_buchujeon_garlic_chive_pancakes_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢Makes 2 large pancakes or 6 small ones",
-            "▢1cupKorean pancake mix (buchimgaru, 부침가루)or simply use all purpose flour or gluten free flour with 1/2 teaspoon salt - see note",
-            "▢3ouncesgarlic chivesbuchu, 부추",
-            "▢1/4medium onion",
-            "▢1teaspoonsoup soy sauceor regular soy sauce or fish sauce",
-            "▢1cupKorean pancake mixbuchimgaru, 부침가루",
-            "▢3ouncesgarlic chivesbuchu, 부추",
-            "▢1/4medium onion",
-            "▢1tablespoongochujangKorean chili pepper paste",
-            "▢1tablespoonsoy sauce",
-            "▢1teaspoonvinegar",
-            "▢1tablespoonwater",
-            "▢1/2teaspoonsugar",
-            "▢pinchof black pepper"
+            "Makes 2 large pancakes or 6 small ones",
+            "1 cup Korean pancake mix (buchimgaru, 부침가루)",
+            "3 ounces garlic chives",
+            "1/4  medium onion",
+            "1 teaspoon soup soy sauce",
+            "1 cup Korean pancake mix",
+            "3 ounces garlic chives",
+            "1/4  medium onion",
+            "1 tablespoon gochujang",
+            "1 tablespoon soy sauce",
+            "1 teaspoon vinegar",
+            "1 tablespoon water",
+            "1/2 teaspoon sugar",
+            "pinch of black pepper"
         ],
         "recipeInstructions": [
             {
@@ -1948,9 +1982,10 @@
                 "text": "Repeat the process until there is no remaining batter and the optional spicy version. Serve with a dipping sauce."
             }
         ],
-        "recipeYield": "Servings:2",
-        "prepTime": "PTPrep Time:10minutesminutes",
-        "cookTime": "PTCook Time:10minutesminutes",
+        "recipeYield": "2",
+        "prepTime": "10 Minutes",
+        "cookTime": "10 Minutes",
+        "image": "../images/recipe_35_buchujeon_garlic_chive_pancakes_.jpg",
         "description": "Savory pancakes are a big part of Korean home cooking. The recipe here is buchujeon, which is made with garlic chives. It's delicious and simple to make!"
     },
     {
@@ -1958,29 +1993,29 @@
         "@type": "Recipe",
         "id": 36,
         "name": "KKanpung Saeu (Sweet and Spicy Shrimp)",
-        "image": "images/recipe_36_kkanpung_saeu_sweet_and_spicy_shrimp_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1poundlarge shrimpabout 22 large shrimp, peeled and deveined",
-            "▢Oil for frying",
-            "▢8tablespoonspotato starch",
-            "▢1egg",
-            "▢4 to 5small dried red hot peppersroughly cut",
-            "▢5garlic clovesthinly sliced",
-            "▢1-inchgingerthinly julienned",
-            "▢1scallionfinely chopped",
-            "▢1/4medium onionfinely diced",
-            "▢1/4red bell pepperor 1 red chili pepper, finely diced",
-            "▢1green chili pepperfinely diced",
-            "▢2tablespoonssoy sauce",
-            "▢2tablespoonsoyster sauce",
-            "▢2tablespoonsplus 1 teaspoon sugar",
-            "▢2tablespoonsvinegar",
-            "▢1tablespoonlemon juice",
-            "▢2tablespoonsrice or dry white wineor use more water",
-            "▢2tablespoonswateror chicken or dashima broth",
-            "▢1/2tablespoonsesame oil"
+            "1 pound large shrimp",
+            "Oil for frying",
+            "8 tablespoons potato starch",
+            "1  egg",
+            "4 to 5  small dried red hot peppers",
+            "5  garlic cloves",
+            "1- inch ginger",
+            "1  scallion",
+            "1/4  medium onion",
+            "1/4  red bell pepper",
+            "1  green chili pepper",
+            "2 tablespoons soy sauce",
+            "2 tablespoons oyster sauce",
+            "2 tablespoons plus 1 teaspoon sugar",
+            "2 tablespoons vinegar",
+            "1 tablespoon lemon juice",
+            "2 tablespoons rice or dry white wine",
+            "2 tablespoons water",
+            "1/2 tablespoon sesame oil"
         ],
         "recipeInstructions": [
             {
@@ -2028,9 +2063,10 @@
                 "text": "Drop the shrimp into the pan, and quickly stir everything together until the sauce is almost absorbed. Drizzle the sesame oil, and toss everything together again. Serve immediately."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_36_kkanpung_saeu_sweet_and_spicy_shrimp_.jpg",
         "description": "kkanpung shrimp is a Korean-Chinese dish that's deep-fried and glazed in a sweet, sour and spicy sauce. it’s easy to make at home!"
     },
     {
@@ -2038,28 +2074,28 @@
         "@type": "Recipe",
         "id": 37,
         "name": "Tteok Sanjeok (Skewered Rice Cake with Beef and Vegetables)",
-        "image": "images/recipe_37_tteok_sanjeok_skewered_rice_cake_with_beef_and_vegetables_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢2piecesgaraetteoksufficient for 4 7-centimeter long pieces",
-            "▢1tablespoonsoy sauce",
-            "▢2teaspoonssugar",
-            "▢1teaspoonsesame oil",
-            "▢4ounceslean beeftenderloin, sirloin, eye round",
-            "▢1tablespoonsoy sauce",
-            "▢2teaspoonssugar",
-            "▢1teaspoonsesame oil",
-            "▢1teaspoonrice wine",
-            "▢1teaspoonminced garlic",
-            "▢pinchpepper",
-            "▢4king trumpet mushroomssaesongi beoseot",
-            "▢2small carrots",
-            "▢4scallions",
-            "▢salt and pepper",
-            "▢oil for pan frying",
-            "▢sesame seeds or chopped pine nuts for garnish - optional",
-            "▢8skewersabout 4-inch long"
+            "2 pieces garaetteok",
+            "1 tablespoon soy sauce",
+            "2 teaspoons sugar",
+            "1 teaspoon sesame oil",
+            "4 ounces lean beef",
+            "1 tablespoon soy sauce",
+            "2 teaspoons sugar",
+            "1 teaspoon sesame oil",
+            "1 teaspoon rice wine",
+            "1 teaspoon minced garlic",
+            "pinch pepper",
+            "4  king trumpet mushrooms",
+            "2  small carrots",
+            "4  scallions",
+            "salt and pepper",
+            "oil for pan frying",
+            "sesame seeds or chopped pine nuts for garnish - optional",
+            "8  skewers"
         ],
         "recipeInstructions": [
             {
@@ -2087,9 +2123,10 @@
                 "text": "Heat a large pan with a little bit of oil over medium low heat. Place the skewers in the pan. Cook each side until the meat and vegetables are cooked through and slightly caramelized, 1 – 2 minutes each side. Garnish with the optional sesame seeds or pine nuts."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_37_tteok_sanjeok_skewered_rice_cake_with_beef_and_vegetables_.jpg",
         "description": "Sanjeok is a variety of jeok – skewered meat and vegetables. Unlike some other jeok varieties, sanjeok is not flour- or egg-battered. The ingredients are"
     },
     {
@@ -2097,29 +2134,29 @@
         "@type": "Recipe",
         "id": 38,
         "name": "Eggplant rolls (Gaji Mari)",
-        "image": "images/recipe_38_eggplant_rolls_gaji_mari_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢2Asian eggplantslong and thick - see note",
-            "▢2 to 3tablespoonsof perilla or sesame oilor olive oil",
-            "▢salt and pepper",
-            "▢1package of alfalfa sproutsor any sprouts",
-            "▢3ouncesof red cabbagethinly sliced",
-            "▢1/4red bell pepper",
-            "▢1/4orange bell pepper",
-            "▢1/4yellow bell pepper",
-            "▢1/4green bell pepper",
-            "▢1package of enoki mushrooms",
-            "▢2teaspoonsKorean hot mustardyeon gyeoja, 연겨자 or dijon mustard",
-            "▢2tablespoonsvinegar",
-            "▢1tablespoonrice syrupor sugar",
-            "▢2tablespoonjuice from grated pearor apple juice or 1 tablespoon Korean plum syrup",
-            "▢⅛teaspoonsalt",
-            "▢1tablespoonsoy sauce",
-            "▢1tablespoonvinegar",
-            "▢1teaspoonsugar",
-            "▢1tablespoonKorean plum extractor apple juice"
+            "2  Asian eggplants",
+            "2 to 3 tablespoons of perilla or sesame oil",
+            "salt and pepper",
+            "1  package of alfalfa sprouts",
+            "3 ounces of red cabbage",
+            "1/4  red bell pepper",
+            "1/4  orange bell pepper",
+            "1/4  yellow bell pepper",
+            "1/4  green bell pepper",
+            "1  package of enoki mushrooms",
+            "2 teaspoons Korean hot mustard",
+            "2 tablespoons vinegar",
+            "1 tablespoon rice syrup",
+            "2 tablespoon juice from grated pear",
+            "⅛ teaspoon salt",
+            "1 tablespoon soy sauce",
+            "1 tablespoon vinegar",
+            "1 teaspoon sugar",
+            "1 tablespoon Korean plum extract"
         ],
         "recipeInstructions": [
             {
@@ -2139,9 +2176,10 @@
                 "text": "Lay an eggplant slice on a flat surface. Place assorted vegetables on top at one end of the eggplant slice and roll up all the way. Repeat until all eggplant slices are used up."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_38_eggplant_rolls_gaji_mari_.jpg",
         "description": "a vegan recipe for gorgeous, easy-to-make, Korean-style eggplant rolls!"
     },
     {
@@ -2149,16 +2187,16 @@
         "@type": "Recipe",
         "id": 39,
         "name": "Korean Temple Food and Hobak Mandu",
-        "image": "images/recipe_39_korean_temple_food_and_hobak_mandu.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢24dumpling wrappers",
-            "▢2zucchinisabout 10 ounces each",
-            "▢1teaspoonsalt",
-            "▢4dried pyogo beoseot, 표고버섯 (shiitake mushrooms)soaked (or use fresh) - optional",
-            "▢1/2tablespoonsoup soy sauce, 국간장 (or 1 tablespoon regular soy sauce)or 1/4 teaspoon salt",
-            "▢sesame oil"
+            "24  dumpling wrappers",
+            "2  zucchinis",
+            "1 teaspoon salt",
+            "4  dried pyogo beoseot, 표고버섯 (shiitake mushrooms)",
+            "1/2 tablespoon soup soy sauce, 국간장 (or 1 tablespoon regular soy sauce)",
+            "sesame oil"
         ],
         "recipeInstructions": [
             {
@@ -2194,9 +2232,10 @@
                 "text": "Remove and serve cold with a dipping sauce (2 teaspoons soy sauce, 1 teaspoon vinegar, and 2 teaspoons water) if desired."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_39_korean_temple_food_and_hobak_mandu.jpg",
         "description": "Korean temple food has been increasingly popular in Korea by health conscious people, as well-being, healing food. Here are five basic things you should know and an easy temple style dumpling recipe."
     },
     {
@@ -2204,25 +2243,25 @@
         "@type": "Recipe",
         "id": 40,
         "name": "Tuna Gimbap",
-        "image": "images/recipe_40_tuna_gimbap.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢2cupsstandard measuring cup not the cup that comes with a rice cooker uncooked short grain rice",
-            "▢1-1/2tablespoonssesame oil",
-            "▢salt to tasteabout 1/2 teaspoon",
-            "▢2cans5 to 6 ounces tuna, drained well",
-            "▢2tablespoonsfinely diced celery",
-            "▢2tablespoonsmayonnaise",
-            "▢1teaspoondijon mustard",
-            "▢2teaspoonslemon juice",
-            "▢saltstart with ¼ teaspoon and pepper to taste",
-            "▢10romaine lettuce leavesonly use green leafy part",
-            "▢10perilla leaves",
-            "▢3kirby cucumberscut into thick sticks or julienned (do not used seedy part)",
-            "▢5strips pre-cut pickled radish단무지",
-            "▢10 3-inchpieces imitation crab meatcrab sticks",
-            "▢5sheets gim"
+            "2 cups standard measuring cup not the cup that comes with a rice cooker uncooked short grain rice",
+            "1-1/2 tablespoons sesame oil",
+            "salt to taste",
+            "2  cans",
+            "2 tablespoons finely diced celery",
+            "2 tablespoons mayonnaise",
+            "1 teaspoon dijon mustard",
+            "2 teaspoons lemon juice",
+            "salt",
+            "10  romaine lettuce leaves",
+            "10  perilla leaves",
+            "3  kirby cucumbers",
+            "5  strips pre-cut pickled radish",
+            "10 3- inch pieces imitation crab meat",
+            "5  sheets gim"
         ],
         "recipeInstructions": [
             {
@@ -2262,9 +2301,10 @@
                 "text": "Rub or brush the roll with a little bit of sesame oil for extra flavor and a shiny look. Apply a little bit of sesame oil to a sharp knife. This will keep rice from sticking to the knife. Repeat as necessary after each cut. Wipe the knife with a damp towel if the rice still sticks. Cut the roll into 1/2-inch bite sizes."
             }
         ],
-        "recipeYield": "Servings:5",
+        "recipeYield": "5",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_40_tuna_gimbap.jpg",
         "description": "Another gimbap (Korean seaweed rice rolls) recipe! This time it's made with canned tuna. I kept it simple so the tuna really stands out in this recipe."
     },
     {
@@ -2272,26 +2312,26 @@
         "@type": "Recipe",
         "id": 41,
         "name": "Mini Gimbap (Mayak Gimbap)",
-        "image": "images/recipe_41_mini_gimbap_mayak_gimbap_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢Makes 16 pieces",
-            "▢1-1/2cupsuncooked short grain ricestandard measuring cup not the cup that comes with a rice cooker",
-            "▢2teaspoonssesame oil",
-            "▢salt to tastestart with ⅓ teaspoon",
-            "▢1small bunch spinachabout 6 ounces",
-            "▢1teaspoonsesame oil",
-            "▢salt to taste – about 1/4 teaspoon",
-            "▢1large carrotjulienned",
-            "▢4yellow pickled radishdanmuji strips, pre-cut for gimbap",
-            "▢4gimaka nori sheets",
-            "▢1tablespoonsesame seedsfinely ground in a spice grinder or mortar bowl",
-            "▢1tablespoonvinegar",
-            "▢1teaspoonsoy sauce",
-            "▢1teaspoondijon mustardor Korean hot mustard, gyeoja",
-            "▢⅛teaspoonsalt",
-            "▢2teaspoonssugar"
+            "Makes 16 pieces",
+            "1-1/2 cups uncooked short grain rice",
+            "2 teaspoons sesame oil",
+            "salt to taste",
+            "1  small bunch spinach",
+            "1 teaspoon sesame oil",
+            "salt to taste – about 1/4 teaspoon",
+            "1  large carrot",
+            "4  yellow pickled radish",
+            "4  gim",
+            "1 tablespoon sesame seeds",
+            "1 tablespoon vinegar",
+            "1 teaspoon soy sauce",
+            "1 teaspoon dijon mustard",
+            "⅛ teaspoon salt",
+            "2 teaspoons sugar"
         ],
         "recipeInstructions": [
             {
@@ -2335,9 +2375,10 @@
                 "text": "Finely grind the sesame seeds in a spice grinder or mortar bowl. Mix with the remaining sauce ingredients. Stir well until the sugar is dissolved and the ground sesame seeds are evenly distributed."
             }
         ],
-        "recipeYield": "Servings:2",
+        "recipeYield": "2",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_41_mini_gimbap_mayak_gimbap_.jpg",
         "description": "This mini gimbap or kimbap is so addictive that it's called mayak gimbap, meaning drug gimbap. It's minimalist kimbap that's addictive."
     },
     {
@@ -2345,27 +2386,27 @@
         "@type": "Recipe",
         "id": 42,
         "name": "Yukjeon (Pan-fried Battered Beef)",
-        "image": "images/recipe_42_yukjeon_pan_fried_battered_beef_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1poundthinly sliced beefany tender cut such as loin and rib eye",
-            "▢1/2cupsweet rice flourchapssal garu, 찹쌀가루",
-            "▢oil for pan-frying",
-            "▢2scallionsthinly sliced",
-            "▢1tablespoonsoy sauce",
-            "▢1teaspoonrice wine",
-            "▢2teaspoonswater",
-            "▢1teaspoonsesame oil",
-            "▢1teaspoonsugar",
-            "▢pinchpepper",
-            "▢1/2teaspoonminced garlic",
-            "▢1teaspoonhot mustardgyeoja, 겨자",
-            "▢1teaspoonhot water",
-            "▢1teaspoonsoy sauce",
-            "▢1teaspoonvinegar",
-            "▢1teaspoonsugar",
-            "▢pinchsalt"
+            "1 pound thinly sliced beef",
+            "1/2 cup sweet rice flour",
+            "oil for pan-frying",
+            "2  scallions",
+            "1 tablespoon soy sauce",
+            "1 teaspoon rice wine",
+            "2 teaspoons water",
+            "1 teaspoon sesame oil",
+            "1 teaspoon sugar",
+            "pinch pepper",
+            "1/2 teaspoon minced garlic",
+            "1 teaspoon hot mustard",
+            "1 teaspoon hot water",
+            "1 teaspoon soy sauce",
+            "1 teaspoon vinegar",
+            "1 teaspoon sugar",
+            "pinch salt"
         ],
         "recipeInstructions": [
             {
@@ -2397,9 +2438,10 @@
                 "text": "Mix int the other ingredients, and serve as a dipping sauce."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_42_yukjeon_pan_fried_battered_beef_.jpg",
         "description": "Yukjeon(육전) is a type of jeon (pan-fried battered food) that’s made with thinly sliced beef. It’s atraditional holiday or special occasiondish. A Korean"
     },
     {
@@ -2407,22 +2449,22 @@
         "@type": "Recipe",
         "id": 43,
         "name": "Danpatjuk (Sweet Red Bean Porridge)",
-        "image": "images/recipe_43_danpatjuk_sweet_red_bean_porridge_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1cuppat, 팥 (aka adzuki beans)",
-            "▢1tablespoonglutinous rice flour (aka sweet rice powder)Chapssal garu (찹쌀가루) or mochiko",
-            "▢2tablespoonssugar (or light brown sugar)",
-            "▢1tablespoonhoney (use more sugar to taste if unavailable)",
-            "▢½teaspoonsalt",
-            "▢1/2cupglutinous rice powder (aka sweet rice powder)Chapssal garu (찹쌀가루) or mochiko",
-            "▢2teaspoonssugar",
-            "▢pinchsalt",
-            "▢4tablespoonsboiling hot water",
-            "▢1tablespoonpine nuts",
-            "▢4 to 6boiled chestnuts (or canned)",
-            "▢1/4 to 1/2teaspooncinnamon powder"
+            "1 cup pat, 팥 (aka adzuki beans)",
+            "1 tablespoon glutinous rice flour (aka sweet rice powder)",
+            "2 tablespoons sugar (or light brown sugar)",
+            "1 tablespoon honey (use more sugar to taste if unavailable)",
+            "½ teaspoon salt",
+            "1/2 cup glutinous rice powder (aka sweet rice powder)",
+            "2 teaspoons sugar",
+            "pinch salt",
+            "4 tablespoons boiling hot water",
+            "1 tablespoon pine nuts",
+            "4 to 6  boiled chestnuts (or canned)",
+            "1/4 to 1/2 teaspoon cinnamon powder"
         ],
         "recipeInstructions": [
             {
@@ -2466,9 +2508,10 @@
                 "text": "Ladle some porridge into a serving bowl. Serve hot with a few rice balls and optional garnishes."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_43_danpatjuk_sweet_red_bean_porridge_.jpg",
         "description": "A sweet, velvety smooth Korean porridge made with red beans! I love anything made with these small red beans called pat(팥) (aka azuki or adzuki beans)."
     },
     {
@@ -2476,14 +2519,15 @@
         "@type": "Recipe",
         "id": 44,
         "name": "Myulchu Gimbap",
-        "image": "images/recipe_44_myulchu_gimbap.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [],
         "recipeInstructions": [],
         "recipeYield": null,
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_44_myulchu_gimbap.jpg",
         "description": "  Have you heard of myulchu gimbap (멸추김밥)? It's a relatively new variation of gimbap (or kimbap) that was created by a gimbap"
     },
     {
@@ -2491,25 +2535,25 @@
         "@type": "Recipe",
         "id": 45,
         "name": "Kkaennip Jeon (Pan-fried Stuffed Perilla Leaves)",
-        "image": "images/recipe_45_kkaennip_jeon_pan_fried_stuffed_perilla_leaves_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢12kkaennipperilla pieces",
-            "▢4ounceszucchini",
-            "▢1/4teaspoonsalt",
-            "▢1/2small carrot",
-            "▢2 to 3mushroom caps",
-            "▢1/4small onion",
-            "▢1/2teaspoonminced garlic",
-            "▢4ouncesground beefor pork",
-            "▢1teaspoonsoy sauce",
-            "▢1teaspoonsesame oil",
-            "▢salt (about 1/4 teaspoon) and pepper",
-            "▢1tablespoonegg batterfrom the batter ingredient",
-            "▢1/4cupflour",
-            "▢3large eggs, beaten well",
-            "▢cooking oil for pan frying"
+            "12  kkaennip",
+            "4 ounces zucchini",
+            "1/4 teaspoon salt",
+            "1/2  small carrot",
+            "2 to 3  mushroom caps",
+            "1/4  small onion",
+            "1/2 teaspoon minced garlic",
+            "4 ounces ground beef",
+            "1 teaspoon soy sauce",
+            "1 teaspoon sesame oil",
+            "salt (about 1/4 teaspoon) and pepper",
+            "1 tablespoon egg batter",
+            "1/4 cup flour",
+            "3  large eggs, beaten well",
+            "cooking oil for pan frying"
         ],
         "recipeInstructions": [
             {
@@ -2541,9 +2585,10 @@
                 "text": "Cut the peppers in half lengthwise. Dredge in flour. Stuff the peppers. Coat the stuffed peppers lightly with the flour. Dip in the egg batter. Follow the directions above to cook."
             }
         ],
-        "recipeYield": "Servings:4",
-        "prepTime": "PTPrep Time:20minutesminutes",
-        "cookTime": "PTCook Time:10minutesminutes",
+        "recipeYield": "4",
+        "prepTime": "20 Minutes",
+        "cookTime": "10 Minutes",
+        "image": "../images/recipe_45_kkaennip_jeon_pan_fried_stuffed_perilla_leaves_.jpg",
         "description": " This perilla jeon is a type of Korean jeon that's stuffed, egg-battered and pan-fried. The perilla leaves give a nice flavor and textural contrast"
     },
     {
@@ -2551,18 +2596,18 @@
         "@type": "Recipe",
         "id": 46,
         "name": "Saewu Ganghwe (Green Onion Tied Shrimp and Asparagus)",
-        "image": "images/recipe_46_saewu_ganghwe_green_onion_tied_shrimp_and_asparagus_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢16medium shrimp41 – 50 per pound sizes, peeled, tail on, and deveined",
-            "▢8thin asparagus stalks",
-            "▢16thin green onionsscallions",
-            "▢1tablespoonlemon juiceor vinegar",
-            "▢1tablespoongochujangKorean red chili pepper paste",
-            "▢1/2tablespoonsugar",
-            "▢1/4teaspoonminced garlicoptional",
-            "▢Mix well and set aside."
+            "16  medium shrimp",
+            "8  thin asparagus stalks",
+            "16  thin green onions",
+            "1 tablespoon lemon juice",
+            "1 tablespoon gochujang",
+            "1/2 tablespoon sugar",
+            "1/4 teaspoon minced garlic",
+            "Mix well and set aside."
         ],
         "recipeInstructions": [
             {
@@ -2582,9 +2627,10 @@
                 "text": "Use a chopstick or a toothpick to tuck the end of the green onion into the roll.  Serve with the gochujang sauce."
             }
         ],
-        "recipeYield": "Servings:0",
+        "recipeYield": "0",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_46_saewu_ganghwe_green_onion_tied_shrimp_and_asparagus_.jpg",
         "description": "Impress your family or guests with these little Korean delicacies made tying poached shrimp with blanched spring onion and served with a gochujang sauce!"
     },
     {
@@ -2592,21 +2638,21 @@
         "@type": "Recipe",
         "id": 47,
         "name": "Jjukkumi Gui (Spicy Grilled Baby Octopus)",
-        "image": "images/recipe_47_jjukkumi_gui_spicy_grilled_baby_octopus_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1pound10 - 12 baby octopus",
-            "▢1small cucumberthinly sliced, for garnish (optional)",
-            "▢2tablespoonsKorean red chili pepper pastegochujang",
-            "▢1 to 2teaspoonsKorean red chili pepper flakesgochugaru",
-            "▢1tablespoonsoy sauce",
-            "▢1tablespoonrice wineor mirin",
-            "▢2tablespoonssugar",
-            "▢1teaspoonminced garlic",
-            "▢1/2teaspoonfinely grated ginger",
-            "▢1tablespoonsesame oil",
-            "▢1teaspoonsesame seeds"
+            "1 pound 10 - 12 baby octopus",
+            "1  small cucumber",
+            "2 tablespoons Korean red chili pepper paste",
+            "1 to 2 teaspoons Korean red chili pepper flakes",
+            "1 tablespoon soy sauce",
+            "1 tablespoon rice wine",
+            "2 tablespoons sugar",
+            "1 teaspoon minced garlic",
+            "1/2 teaspoon finely grated ginger",
+            "1 tablespoon sesame oil",
+            "1 teaspoon sesame seeds"
         ],
         "recipeInstructions": [
             {
@@ -2618,9 +2664,10 @@
                 "text": "Combine the marinade ingredients. Pour over the octopus and mix to coat well. Marinate for 2 to 3 hours (up to overnight) in the fridge. Heat a lightly oiled grill or a grill pan to medium high and sear for about 3 minutes, turning a couple of times. Do not overcook. Plate them on the optional cucumber slices to serve."
             }
         ],
-        "recipeYield": "Servings:0",
+        "recipeYield": "0",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_47_jjukkumi_gui_spicy_grilled_baby_octopus_.jpg",
         "description": "Baby octopus are marinated in a spicy gochujang sauce and seared quickly on the grill. Tender, enjoyably chewy, not to mention a burst of flavor with"
     },
     {
@@ -2628,14 +2675,15 @@
         "@type": "Recipe",
         "id": 48,
         "name": "Galbi Taco (Korean-Style Taco with Beef Short Ribs)",
-        "image": "images/recipe_48_galbi_taco_korean_style_taco_with_beef_short_ribs_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [],
         "recipeInstructions": [],
         "recipeYield": null,
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_48_galbi_taco_korean_style_taco_with_beef_short_ribs_.jpg",
         "description": "  The idea to place Korean BBQ meat on a Mexican corn tortilla topped with a mix of Korean and Mexican flavors has been around quite some time."
     },
     {
@@ -2643,20 +2691,20 @@
         "@type": "Recipe",
         "id": 49,
         "name": "Modeumjeon (Fish, Shrimp and Zucchini Jeon)",
-        "image": "images/recipe_49_modeumjeon_fish_shrimp_and_zucchini_jeon_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢1zucchini",
-            "▢10shrimpmedium to large",
-            "▢1/2poundflounder or cod filletor any white fish",
-            "▢salt and pepper",
-            "▢3eggsbeaten",
-            "▢1/2cupflour",
-            "▢vegetable or canola oil for pan frying",
-            "▢1tablespoonsoy sauce",
-            "▢1tablespoonrice vinegar",
-            "▢pinchpepper"
+            "1  zucchini",
+            "10  shrimp",
+            "1/2 pound flounder or cod fillet",
+            "salt and pepper",
+            "3  eggs",
+            "1/2 cup flour",
+            "vegetable or canola oil for pan frying",
+            "1 tablespoon soy sauce",
+            "1 tablespoon rice vinegar",
+            "pinch pepper"
         ],
         "recipeInstructions": [
             {
@@ -2688,9 +2736,10 @@
                 "text": "Repeat until all the ingredients are pan fried. Add an additional tablespoon of oil each time. Serve warm with the dipping sauce."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_49_modeumjeon_fish_shrimp_and_zucchini_jeon_.jpg",
         "description": "A platter of zucchini, fish and shrimp pan-fried in egg batter! Small Korean delicacies that are great as an appetizer or side dish."
     },
     {
@@ -2698,21 +2747,21 @@
         "@type": "Recipe",
         "id": 50,
         "name": "Deep-Fried Pork Rolls (Dwaegi Gogi Mari Twiguim)",
-        "image": "images/recipe_50_deep_fried_pork_rolls_dwaegi_gogi_mari_twiguim_.jpg",
         "author": "Korean Bapsang",
         "datePublished": "2024-11-11",
+        "category": "Appetizer/Snack",
         "recipeIngredient": [
-            "▢8thin pork slicesabout ⅛ - inch thick",
-            "▢1teaspoonfresh ginger gratedor 1/2 teaspoon ginger powder",
-            "▢salt and pepper",
-            "▢8Korean perilla leavesavailable in Korean markets",
-            "▢3 - 4green chili peppersor 1 green bell pepper, julienned",
-            "▢3 - 4red chili peppersor 1 red bell pepper, julienned",
-            "▢1cuptwiguim garupremade tempura batter mix*",
-            "▢3/4cupice water",
-            "▢1/4cupall-purpose flour for dredging",
-            "▢canola or vegetable oil for deep frying",
-            "▢*A premade batter mix can be found in Korean/Asian markets. If unavailable, beat 1 egg yolk in a bowl and mix in 3/4 cup ice water. Add 1 cup of flour. Mix until combined."
+            "8  thin pork slices",
+            "1 teaspoon fresh ginger grated",
+            "salt and pepper",
+            "8  Korean perilla leaves",
+            "3 - 4  green chili peppers",
+            "3 - 4  red chili peppers",
+            "1 cup twiguim garu",
+            "3/4 cup ice water",
+            "1/4 cup all-purpose flour for dredging",
+            "canola or vegetable oil for deep frying",
+            "*A premade batter mix can be found in Korean/Asian markets. If unavailable, beat 1 egg yolk in a bowl and mix in 3/4 cup ice water. Add 1 cup of flour. Mix until combined."
         ],
         "recipeInstructions": [
             {
@@ -2740,9 +2789,10 @@
                 "text": "Serve immediately with asauce."
             }
         ],
-        "recipeYield": "Servings:4",
+        "recipeYield": "4",
         "prepTime": null,
         "cookTime": null,
+        "image": "../images/recipe_50_deep_fried_pork_rolls_dwaegi_gogi_mari_twiguim_.jpg",
         "description": "These little delights are great for parties! Prepare ahead of time and fry them right before serving. Sure to be a big crowd pleaser!"
     }
 ]
