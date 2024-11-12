@@ -42,23 +42,19 @@ def download_image(img_url, recipe_id, recipe_name, folder='../images'):
     return img_path
 
 def clean_ingredient_text(ingredient):
-    # Extract the amount, unit, and name of the ingredient
     amount = ingredient.select_one('.wprm-recipe-ingredient-amount')
     unit = ingredient.select_one('.wprm-recipe-ingredient-unit')
     name = ingredient.select_one('.wprm-recipe-ingredient-name')
     
-    # Clean up and format the ingredient
     cleaned_amount = amount.get_text(strip=True) if amount else ''
     cleaned_unit = unit.get_text(strip=True) if unit else ''
     cleaned_name = name.get_text(strip=True) if name else ''
     
-    # Combine amount, unit, and name, ensuring there is space between the parts
     ingredient_text = f"{cleaned_amount} {cleaned_unit} {cleaned_name}".strip()
     
     return ingredient_text
 
 def clean_time_text(time_text):
-    # Convert time to ISO 8601 duration format
     match = re.search(r'(\d+)\s*(minutes|hours|seconds|days)', time_text, re.IGNORECASE)
     if match:
         quantity = match.group(1)
@@ -74,17 +70,8 @@ def clean_time_text(time_text):
     return None
 
 def extract_category(soup):
-    # Locate the menu structure and find the currently active or highlighted category
     sub_menu = soup.select_one('ul.sub-menu .current-menu-parent a span')
-    
-    # If found, extract the text for the category
-    if sub_menu:
-        category = sub_menu.get_text(strip=True)
-    else:
-        # Fallback to another method if this specific structure doesn't match
-        category = None
-    
-    return category
+    return sub_menu.get_text(strip=True) if sub_menu else None
 
 def extract_recipe_details(url, recipe_id):
     response = requests.get(url)
@@ -93,45 +80,24 @@ def extract_recipe_details(url, recipe_id):
         return None
     
     soup = BeautifulSoup(response.content, 'html.parser')
-    
-    # Extract title
     title = soup.find('h1', class_='entry-title').get_text(strip=True)
-    
-    # Use the new extract_category function
     category = extract_category(soup) if extract_category(soup) else ""
 
-    # Extract ingredients
-    ingredients = []
-    for ingredient in soup.select('li.wprm-recipe-ingredient'):
-        clean_text = clean_ingredient_text(ingredient)
-        ingredients.append(clean_text)
+    ingredients = [clean_ingredient_text(ingredient) for ingredient in soup.select('li.wprm-recipe-ingredient')]
+    instructions = [instruction.get_text(strip=True) for instruction in soup.select('div.wprm-recipe-instruction-text')]
 
-    # Extract instructions
-    instructions = []
-    for instruction in soup.select('div.wprm-recipe-instruction-text'):
-        instructions.append(instruction.get_text(strip=True))
-
-    # Extract prep and cook times
     prep_time = soup.find('div', class_='wprm-recipe-prep-time-container')
     cook_time = soup.find('div', class_='wprm-recipe-cook-time-container')
     prep_time_cleaned = clean_time_text(prep_time.get_text(strip=True)) if prep_time else None
     cook_time_cleaned = clean_time_text(cook_time.get_text(strip=True)) if cook_time else None
 
-    # Extract servings
     servings = soup.find('div', class_='wprm-recipe-servings-container')
-    if servings:
-        # Use regex to find the number within the servings text
-        match = re.search(r'\d+', servings.get_text(strip=True))
-        servings = match.group(0) if match else None
-    else:
-        servings = None
+    servings = re.search(r'\d+', servings.get_text(strip=True)).group(0) if servings else None
 
-    # Extract image URL
     image_url = soup.find('meta', property='og:image')
     image_url = image_url['content'] if image_url else None
     local_image_path = download_image(image_url, recipe_id, title) if image_url else None
 
-    # Schema.org JSON-LD Recipe structure
     schema_recipe = {
         "@context": "https://schema.org",
         "@type": "Recipe",
@@ -157,17 +123,25 @@ def save_to_json(data, file_name):
     print(f"Recipe data saved to {file_name}")
 
 if __name__ == "__main__":
-    category_url = "https://www.koreanbapsang.com/category/appetizersnack"
-    
+    # Load existing recipes
+    file_name = 'recipes.json'
+    try:
+        with open(file_name, 'r', encoding='utf-8') as f:
+            all_recipes = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        all_recipes = []
+
+    # Extract recipes from "main-dish" category
+    category_url = "https://www.koreanbapsang.com/category/main-dish"
     recipe_links = get_recipe_links(category_url)
     
-    all_recipes = []
-    recipe_id = 1
+    recipe_id = len(all_recipes) + 1
     for link in recipe_links:
         print(f"Extracting recipe from {link}")
         recipe_data = extract_recipe_details(link, recipe_id)
         if recipe_data:
             all_recipes.append(recipe_data)
             recipe_id += 1
-    
-    save_to_json(all_recipes, 'recipes.json')
+
+    # Save updated recipes list
+    save_to_json(all_recipes, file_name)
