@@ -2,9 +2,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import RecipeList from './pages/RecipeList';
-import RecipeDetail from './pages/RecipeDetail';
 import CategoryList from './pages/CategoryList';
 import Home from './pages/Home';
+import RecipeDetailPage from './pages/RecipeDetailPage';
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
         <Route path="/recipes" element={<RecipeList />} />
         <Route path="/categories" element={<CategoryList />} />
         {/* Add dynamic route for RecipeDetail */}
-        <Route path="/recipes/:id" element={<RecipeDetail />} />
+        <Route path="/recipes/:id" element={<RecipeDetailPage />} />
       </Routes>
     </Router>
   );

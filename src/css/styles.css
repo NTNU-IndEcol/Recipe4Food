@@ -32,23 +32,58 @@ nav ul {
   justify-content: center; /* Centers nav items horizontally */
 }
 
-/* Setting the image size of recipe */
+/* Category and recipe list container */
 
-.recipe-image img {
-  width: 100%; /* Makes the image responsive */
-  max-width: 400px; /* Limits the width of the image */
-  height: auto; /* Maintains the aspect ratio */
-  border-radius: 8px; /* Optional: adds rounded corners */
+
+/* Recipe item styling */
+.recipe-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr)); /* Responsive grid */
+  gap: 20px;
+  margin-top: 20px;
 }
 
-/* Setting the recipe in the center */
+.recipe-item {
+  text-align: center;
+}
+
+.recipe-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.recipe-item h3 {
+  margin-top: 30px;
+  font-size: 1.1rem;
+}
 
 .recipe-detail {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers all child elements horizontally */
-  text-align: center; /* Centers text inside each section */
-  max-width: 600px; /* Optional: limits the width for a cleaner look */
-  margin: 0 auto; /* Centers the container in the middle of the page */
-  padding: 20px; /* Adds some spacing around the content */
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; /* Center the content vertically */
+  text-align: center; /* Center the text */
+  padding: 20px;
+}
+
+.recipe-detail img {
+  max-width: 300px; /* Ensure the image is responsive */
+  height: auto;
+  margin-bottom: 20px; /* Add some space below the image */
+}
+
+.recipe-detail h2, .recipe-detail p {
+  margin: 10px 0; /* Add margin for spacing between elements */
+}
+
+.recipe-detail ul, .recipe-detail ol {
+  text-align: left; /* Keep the list items aligned to the left */
+  margin: 0 auto; /* Center the list */
+  padding-left: 20px; /* Add padding for the list */
+  max-width: 600px; /* Limit the width of the list */
+}
+
+.recipe-detail h3 {
+  margin-top: 20px;
 }

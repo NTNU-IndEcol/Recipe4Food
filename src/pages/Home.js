@@ -10,7 +10,7 @@ function Home() {
       {/*  <p>Your ultimate hub for delicious recipes!</p> */}
       </header>
       <section>
-        <h2>Browse by Categories</h2>
+      {/*  <h2>Browse by Categories</h2> */}
         <RecipeList categories={categories} />
       </section>
     </div>

@@ -28,8 +28,9 @@ function RecipeDetail({ recipe }) {
         </ol>
       </section>
       <div className="recipe-meta">
-        <p>Prep Time: N/A | Cook Time: N/A</p>
-        <p>Servings: N/A</p>
+        <p>Prep Time: {recipe.prepTime || 'N/A'}</p>
+        <p>Cook Time: {recipe.cookTime || 'N/A'}</p>
+        <p>Servings: {recipe.recipeYield || 'N/A'}</p>
         <p>Calories: {recipe.nutrition ? recipe.nutrition.calories : 'N/A'}</p>
       </div>
     </div>
@@ -37,3 +38,4 @@ function RecipeDetail({ recipe }) {
 }
 
 export default RecipeDetail;
+

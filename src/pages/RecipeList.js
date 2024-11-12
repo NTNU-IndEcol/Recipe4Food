@@ -1,51 +1,63 @@
-// src/pages/RecipeList.js
 import React, { useState, useEffect } from 'react';
-import RecipeDetail from './RecipeDetail';
+import { Link, useLocation } from 'react-router-dom';
+
+function useQuery() {
+  return new URLSearchParams(useLocation().search);
+}
 
 function RecipeList() {
   const [recipes, setRecipes] = useState([]);
-  const [selectedRecipe, setSelectedRecipe] = useState(null);
-  const [loading, setLoading] = useState(true); // Loading state for data fetch
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  const query = useQuery();
+  const category = query.get('category'); // Get the category from the URL
 
   useEffect(() => {
     // Fetch recipes data
     fetch('/data/recipes.json')
-      .then((response) => response.json())
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to fetch recipes");
+        }
+        return response.json();
+      })
       .then((data) => {
         setRecipes(data);
-        setLoading(false); // Set loading to false once data is fetched
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
       });
   }, []);
 
-  const handleRecipeClick = (recipe) => {
-    setSelectedRecipe(recipe);
-  };
+  // Filter recipes by the selected category, if any
+  const filteredRecipes = category
+    ? recipes.filter((recipe) => recipe.category === category)
+    : recipes;
 
   return (
     <div>
-      <h2>Recipes</h2>
-      {loading ? ( // Display loading message only when fetching data initially
+      <h2>{category ? `Recipes in ${category}` : 'All Recipes'}</h2>
+      {loading ? (
         <p>Loading...</p>
+      ) : error ? (
+        <p>Error: {error}</p>
       ) : (
-        <ul>
-          {recipes.map((recipe) => (
-            <li key={recipe.id}>
-              <button onClick={() => handleRecipeClick(recipe)}>
-                {recipe.name}
-              </button>
-              {/* Display RecipeDetail below the clicked recipe */}
-              {selectedRecipe?.id === recipe.id && (
-                <div className="recipe-detail">
-                  <RecipeDetail recipe={selectedRecipe} />
-                </div>
-              )}
-            </li>
+        <div className="recipe-container">
+          {filteredRecipes.map((recipe) => (
+            <div key={recipe.id} className="recipe-item">
+              <Link to={`/recipes/${recipe.id}`}>
+                <img src={recipe.image} alt={recipe.name} />
+                <h3>{recipe.name}</h3>
+              </Link>
+            </div>
           ))}
-        </ul>
+        </div>
       )}
     </div>
   );
 }
 
 export default RecipeList;
-
