@@ -5,6 +5,7 @@ import RecipeList from './pages/RecipeList';
 import CategoryList from './pages/CategoryList';
 import Home from './pages/Home';
 import RecipeDetailPage from './pages/RecipeDetailPage';
+import Search from './pages/Search';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/categories" element={<CategoryList />} />
         {/* Add dynamic route for RecipeDetail */}
         <Route path="/recipes/:id" element={<RecipeDetailPage />} />
+        <Route path="/search" element={<Search />} />
       </Routes>
     </Router>
   );
