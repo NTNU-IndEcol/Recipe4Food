@@ -50,9 +50,12 @@ def clean_ingredient_text(ingredient):
     cleaned_unit = unit.get_text(strip=True) if unit else ''
     cleaned_name = name.get_text(strip=True) if name else ''
     
-    ingredient_text = f"{cleaned_amount} {cleaned_unit} {cleaned_name}".strip()
-    
-    return ingredient_text
+    return {
+        "amount": cleaned_amount,
+        "unit": cleaned_unit,
+        "name": cleaned_name
+    }
+
 
 def clean_time_text(time_text):
     match = re.search(r'(\d+)\s*(minutes|hours|seconds|days)', time_text, re.IGNORECASE)
@@ -112,7 +115,11 @@ def extract_recipe_details(url, recipe_id):
         "prepTime": prep_time_cleaned,
         "cookTime": cook_time_cleaned,
         "image": local_image_path,
-        "description": soup.find('meta', attrs={"name": "description"})['content'] if soup.find('meta', attrs={"name": "description"}) else title
+        "description": soup.find('meta', attrs={"name": "description"})['content'] if soup.find('meta', attrs={"name": "description"}) else title,
+        "environmentalImpact": {  # Placeholder for environmental impact calculations
+            "co2Emissions": None,  # Later filled in kg CO2 equivalent
+            "waterUse": None       # Later filled in liters
+        }
     }
 
     return schema_recipe
@@ -132,7 +139,8 @@ if __name__ == "__main__":
         all_recipes = []
 
     # Extract recipes from "main-dish" category
-    category_url = "https://www.koreanbapsang.com/category/main-dish"
+  #  category_url = "https://www.koreanbapsang.com/category/appetizersnack/"
+    category_url = "https://omnivorescookbook.com/category/recipe/side/"
     recipe_links = get_recipe_links(category_url)
     
     recipe_id = len(all_recipes) + 1

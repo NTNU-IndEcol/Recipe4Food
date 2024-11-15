@@ -13,7 +13,9 @@ function RecipeDetail({ recipe }) {
         <h3>Ingredients</h3>
         <ul>
           {recipe.recipeIngredient.map((ingredient, index) => (
-            <li key={index}>{ingredient}</li>
+            <li key={index}>
+              {ingredient.amount} {ingredient.unit} {ingredient.name}
+            </li>
           ))}
         </ul>
       </section>
@@ -38,4 +40,5 @@ function RecipeDetail({ recipe }) {
 }
 
 export default RecipeDetail;
+
 

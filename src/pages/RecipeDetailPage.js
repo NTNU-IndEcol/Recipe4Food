@@ -51,14 +51,20 @@ function RecipeDetailPage() {
             <h3>Ingredients:</h3>
             <ul>
               {recipe.recipeIngredient.map((ingredient, index) => (
-                <li key={index}>{ingredient}</li>
+                <li key={index}>
+                  {typeof ingredient === 'object' 
+                    ? `${ingredient.amount || ''} ${ingredient.unit || ''} ${ingredient.name || ''}` 
+                    : ingredient}
+                </li>
               ))}
             </ul>
 
             <h3>Instructions:</h3>
             <ol>
               {recipe.recipeInstructions.map((step, index) => (
-                <li key={index}>{step.text}</li>
+                <li key={index}>
+                  {typeof step === 'string' ? step : step.text}
+                </li>
               ))}
             </ol>
 
