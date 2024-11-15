@@ -5,6 +5,7 @@ from datetime import datetime
 import os
 import re
 
+
 def get_recipe_links(category_url):
     recipe_links = []
     page = 1
@@ -140,7 +141,7 @@ if __name__ == "__main__":
 
     # Extract recipes from "main-dish" category
   #  category_url = "https://www.koreanbapsang.com/category/appetizersnack/"
-    category_url = "https://omnivorescookbook.com/category/recipe/side/"
+    category_url = "https://omnivorescookbook.com/category/recipe/appetizer/"
     recipe_links = get_recipe_links(category_url)
     
     recipe_id = len(all_recipes) + 1
