@@ -134,3 +134,69 @@ nav ul {
 .recipe-detail h3 {
   margin-top: 20px;
 }
+
+/* Ensure category list is styled */
+.category-list {
+  padding: 20px;
+}
+
+.category-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-list li {
+  margin-bottom: 15px;
+}
+
+.category-list li div {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category-list li div:hover {
+  background-color: #ddd;
+}
+
+.category-dishes {
+  margin-top: 20px;
+  display: block;
+}
+
+.dish-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Multi-column grid */
+  gap: 20px;
+}
+
+.dish-item {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.dish-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.dish-item a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.dish-item a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}

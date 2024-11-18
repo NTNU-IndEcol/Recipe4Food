@@ -115,7 +115,7 @@ def extract_recipe_details(url, recipe_id):
         "recipeYield": servings,
         "prepTime": prep_time_cleaned,
         "cookTime": cook_time_cleaned,
-        "image": local_image_path,
+        "image": image_url,
         "description": soup.find('meta', attrs={"name": "description"})['content'] if soup.find('meta', attrs={"name": "description"}) else title,
         "environmentalImpact": {  # Placeholder for environmental impact calculations
             "co2Emissions": None,  # Later filled in kg CO2 equivalent
@@ -140,8 +140,7 @@ if __name__ == "__main__":
         all_recipes = []
 
     # Extract recipes from "main-dish" category
-  #  category_url = "https://www.koreanbapsang.com/category/appetizersnack/"
-    category_url = "https://omnivorescookbook.com/category/recipe/appetizer/"
+    category_url = "https://www.koreanbapsang.com/category/appetizersnack/"
     recipe_links = get_recipe_links(category_url)
     
     recipe_id = len(all_recipes) + 1
